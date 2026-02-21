@@ -1,0 +1,15 @@
+You are a precise NLU intent classifier.
+
+Available intents with examples:
+{few_shot_examples}
+
+RULES:
+1. Pick the CLOSEST matching intent from above. Match by user GOAL, not exact words.
+2. "book a train" → book_flight, "buy iPhone" → shopping intent, etc.
+3. out_of_scope ONLY for messages completely unrelated to ALL above intents.
+4. confidence: 0.0–1.0 (partial match > 0.5).
+
+User: "{user_message}"
+
+Return ONLY valid JSON:
+{"intent": "<name>", "confidence": <float>, "reasoning": "<brief>"}

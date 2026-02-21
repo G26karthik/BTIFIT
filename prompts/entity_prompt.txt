@@ -1,0 +1,11 @@
+Extract entities from this message. Intent: "{predicted_intent}"
+
+Message: "{user_message}"
+
+Entity types: person_name, location, origin, destination, date, time, duration, amount, currency, product, food_item, phone_number, email, organization.
+
+RULES:
+- Return ONLY valid JSON: {"entity_type": "value"}
+- Use descriptive keys: destination, origin, product, amount, etc.
+- Extract verbatim from message.
+- Return {} if no entities found.

@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.Python
+.venv/
+venv/
+env/
+
+# Data (keep structure, ignore large files)
+data/raw/*
+!data/raw/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Evaluation outputs
+data/eval_results.json
+
+# Logs
+*.log

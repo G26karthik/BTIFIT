@@ -1,0 +1,52 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.Python
+.venv/
+venv/
+env/
+
+# Data (keep structure, ignore large files)
+BotTrainer/data/raw/*
+!BotTrainer/data/raw/.gitkeep
+BotTrainer/data/.tfidf_cache.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp helper scripts
+BotTrainer/_runner.py
+BotTrainer/_test.py
+BotTrainer/_test.sh
+BotTrainer/_test_multi.txt
+BotTrainer/_write_styles.py

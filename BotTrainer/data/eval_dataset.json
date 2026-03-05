@@ -1,0 +1,3762 @@
+{
+  "eval_samples": [
+    {
+      "id": 1,
+      "text": "can i get reservations at applebees",
+      "true_intent": "accept_reservations"
+    },
+    {
+      "id": 2,
+      "text": "is it possible to reserve a table at white castle",
+      "true_intent": "accept_reservations"
+    },
+    {
+      "id": 3,
+      "text": "is it possible to make reservations at the new york restaurant",
+      "true_intent": "accept_reservations"
+    },
+    {
+      "id": 4,
+      "text": "will we have to make reservations for roca",
+      "true_intent": "accept_reservations"
+    },
+    {
+      "id": 5,
+      "text": "any clue as to if taco bell takes reservations",
+      "true_intent": "accept_reservations"
+    },
+    {
+      "id": 6,
+      "text": "why is there a delay on my checking account",
+      "true_intent": "account_blocked"
+    },
+    {
+      "id": 7,
+      "text": "what is up with my account, why is it blocked",
+      "true_intent": "account_blocked"
+    },
+    {
+      "id": 8,
+      "text": "why is my checking account not working",
+      "true_intent": "account_blocked"
+    },
+    {
+      "id": 9,
+      "text": "how can i unfreeze my bank account",
+      "true_intent": "account_blocked"
+    },
+    {
+      "id": 10,
+      "text": "what could cause a hold on my savings account",
+      "true_intent": "account_blocked"
+    },
+    {
+      "id": 11,
+      "text": "i need an alarm set now",
+      "true_intent": "alarm"
+    },
+    {
+      "id": 12,
+      "text": "set an alarm for 9 tomorrow",
+      "true_intent": "alarm"
+    },
+    {
+      "id": 13,
+      "text": "please set the alarm",
+      "true_intent": "alarm"
+    },
+    {
+      "id": 14,
+      "text": "help me wake up with an alarm at 5:30am",
+      "true_intent": "alarm"
+    },
+    {
+      "id": 15,
+      "text": "i want to set an alarm",
+      "true_intent": "alarm"
+    },
+    {
+      "id": 16,
+      "text": "has my mastercard application been processed",
+      "true_intent": "application_status"
+    },
+    {
+      "id": 17,
+      "text": "has my mastercard application gone through yet",
+      "true_intent": "application_status"
+    },
+    {
+      "id": 18,
+      "text": "how is the status of my credit card application coming along",
+      "true_intent": "application_status"
+    },
+    {
+      "id": 19,
+      "text": "i need to know the status of my credit card application",
+      "true_intent": "application_status"
+    },
+    {
+      "id": 20,
+      "text": "let me know about the status of my credit card application",
+      "true_intent": "application_status"
+    },
+    {
+      "id": 21,
+      "text": "is my apr rate good",
+      "true_intent": "apr"
+    },
+    {
+      "id": 22,
+      "text": "would you consider my apr to be good",
+      "true_intent": "apr"
+    },
+    {
+      "id": 23,
+      "text": "does my apr rate suck",
+      "true_intent": "apr"
+    },
+    {
+      "id": 24,
+      "text": "what is my b of a credit card's apr",
+      "true_intent": "apr"
+    },
+    {
+      "id": 25,
+      "text": "what's my apr rate",
+      "true_intent": "apr"
+    },
+    {
+      "id": 26,
+      "text": "would you call yourself a human or a computer",
+      "true_intent": "are_you_a_bot"
+    },
+    {
+      "id": 27,
+      "text": "are you a human or ai computer based",
+      "true_intent": "are_you_a_bot"
+    },
+    {
+      "id": 28,
+      "text": "could you be a person",
+      "true_intent": "are_you_a_bot"
+    },
+    {
+      "id": 29,
+      "text": "your a bot aren't you",
+      "true_intent": "are_you_a_bot"
+    },
+    {
+      "id": 30,
+      "text": "would most people say you are a computer or a human",
+      "true_intent": "are_you_a_bot"
+    },
+    {
+      "id": 31,
+      "text": "whats the combined total of the money inside my bank accounts",
+      "true_intent": "balance"
+    },
+    {
+      "id": 32,
+      "text": "how much moola is in my bank accounts",
+      "true_intent": "balance"
+    },
+    {
+      "id": 33,
+      "text": "what's the balance in my bank accounts",
+      "true_intent": "balance"
+    },
+    {
+      "id": 34,
+      "text": "is there enough in my wells fargo account to buy some nike's",
+      "true_intent": "balance"
+    },
+    {
+      "id": 35,
+      "text": "will you tell me my bank balance",
+      "true_intent": "balance"
+    },
+    {
+      "id": 36,
+      "text": "how much will my monthly bill be",
+      "true_intent": "bill_balance"
+    },
+    {
+      "id": 37,
+      "text": "how much is my water and sewer",
+      "true_intent": "bill_balance"
+    },
+    {
+      "id": 38,
+      "text": "how much do i owe visa",
+      "true_intent": "bill_balance"
+    },
+    {
+      "id": 39,
+      "text": "whens my insurance due and how much does it cost",
+      "true_intent": "bill_balance"
+    },
+    {
+      "id": 40,
+      "text": "how much are my rent and cable",
+      "true_intent": "bill_balance"
+    },
+    {
+      "id": 41,
+      "text": "when do i have to pay my internet",
+      "true_intent": "bill_due"
+    },
+    {
+      "id": 42,
+      "text": "when is my electric bill due by",
+      "true_intent": "bill_due"
+    },
+    {
+      "id": 43,
+      "text": "what's the due date for my comcast bill",
+      "true_intent": "bill_due"
+    },
+    {
+      "id": 44,
+      "text": "i need to find out how to check the due date for the water bill",
+      "true_intent": "bill_due"
+    },
+    {
+      "id": 45,
+      "text": "tell me where i can find my exterminator bill's due date",
+      "true_intent": "bill_due"
+    },
+    {
+      "id": 46,
+      "text": "i want a flight from new york to san francisco using delta",
+      "true_intent": "book_flight"
+    },
+    {
+      "id": 47,
+      "text": "\"i'm going on a flight from lax and going to phl, which is only $120 on june 15th",
+      "true_intent": "book_flight"
+    },
+    {
+      "id": 48,
+      "text": "i'm looking for flights that depart on the 3rd and return on z from monday to friday",
+      "true_intent": "book_flight"
+    },
+    {
+      "id": 49,
+      "text": "i need a flight from boston to miami for under 300 dollars",
+      "true_intent": "book_flight"
+    },
+    {
+      "id": 50,
+      "text": "are there any roundtrip flights from shanghai to seatac that depart on wednesday and return on the thirty first",
+      "true_intent": "book_flight"
+    },
+    {
+      "id": 51,
+      "text": "i need to get a hotel room that is big enough for eleven people from march 10th to the 15th in phoenix",
+      "true_intent": "book_hotel"
+    },
+    {
+      "id": 52,
+      "text": "i need a hotel between january 1st through 3rd in jacksonville near the stadium",
+      "true_intent": "book_hotel"
+    },
+    {
+      "id": 53,
+      "text": "id like a room in jacksonville near the stadium between january 1st to 3rd",
+      "true_intent": "book_hotel"
+    },
+    {
+      "id": 54,
+      "text": "i would like to book a place to stay in phoenix from the 5th to the 9th of march",
+      "true_intent": "book_hotel"
+    },
+    {
+      "id": 55,
+      "text": "i need your help to find a good reviewed hotel in washington",
+      "true_intent": "book_hotel"
+    },
+    {
+      "id": 56,
+      "text": "i spent 34 dollars for 12 gallons of paint what is the average price for each gallon",
+      "true_intent": "calculator"
+    },
+    {
+      "id": 57,
+      "text": "what is 1000 plus 745",
+      "true_intent": "calculator"
+    },
+    {
+      "id": 58,
+      "text": "tell me what 1875 plus 3459 equals",
+      "true_intent": "calculator"
+    },
+    {
+      "id": 59,
+      "text": "divide 100 by 12",
+      "true_intent": "calculator"
+    },
+    {
+      "id": 60,
+      "text": "what is the square root of 36",
+      "true_intent": "calculator"
+    },
+    {
+      "id": 61,
+      "text": "retrieve events on my calendar",
+      "true_intent": "calendar"
+    },
+    {
+      "id": 62,
+      "text": "did i mark the mechanic's appointment on my calendar",
+      "true_intent": "calendar"
+    },
+    {
+      "id": 63,
+      "text": "what events do i have going on on march 11th",
+      "true_intent": "calendar"
+    },
+    {
+      "id": 64,
+      "text": "do i have any calendars set for may 12th",
+      "true_intent": "calendar"
+    },
+    {
+      "id": 65,
+      "text": "do i have calendar events on march 19th",
+      "true_intent": "calendar"
+    },
+    {
+      "id": 66,
+      "text": "clear my calendar for november 11th",
+      "true_intent": "calendar_update"
+    },
+    {
+      "id": 67,
+      "text": "please take off my calendar on saturday the 6th birthday party for john",
+      "true_intent": "calendar_update"
+    },
+    {
+      "id": 68,
+      "text": "delete dentist from my calendar",
+      "true_intent": "calendar_update"
+    },
+    {
+      "id": 69,
+      "text": "delete all calendar entries on march 3",
+      "true_intent": "calendar_update"
+    },
+    {
+      "id": 70,
+      "text": "i want to take the 8am meeting with sam on monday the 5th off my calendar",
+      "true_intent": "calendar_update"
+    },
+    {
+      "id": 71,
+      "text": "what is the calorie content in french fries",
+      "true_intent": "calories"
+    },
+    {
+      "id": 72,
+      "text": "how many calories are in a sandwich",
+      "true_intent": "calories"
+    },
+    {
+      "id": 73,
+      "text": "what's the calorie content of chicken nuggets",
+      "true_intent": "calories"
+    },
+    {
+      "id": 74,
+      "text": "how many calories are in a taco",
+      "true_intent": "calories"
+    },
+    {
+      "id": 75,
+      "text": "what is the total number of calories in this pizza",
+      "true_intent": "calories"
+    },
+    {
+      "id": 76,
+      "text": "you can cancel the task",
+      "true_intent": "cancel"
+    },
+    {
+      "id": 77,
+      "text": "stop talking",
+      "true_intent": "cancel"
+    },
+    {
+      "id": 78,
+      "text": "abort mission",
+      "true_intent": "cancel"
+    },
+    {
+      "id": 79,
+      "text": "can you end the current process",
+      "true_intent": "cancel"
+    },
+    {
+      "id": 80,
+      "text": "you need to shut it",
+      "true_intent": "cancel"
+    },
+    {
+      "id": 81,
+      "text": "i have to cancel my reservation after all",
+      "true_intent": "cancel_reservation"
+    },
+    {
+      "id": 82,
+      "text": "i do not want my reservation anymore",
+      "true_intent": "cancel_reservation"
+    },
+    {
+      "id": 83,
+      "text": "i have to cancel my reservation after all, please",
+      "true_intent": "cancel_reservation"
+    },
+    {
+      "id": 84,
+      "text": "please delete the reservation for roberts at village tavern",
+      "true_intent": "cancel_reservation"
+    },
+    {
+      "id": 85,
+      "text": "cancel my reservation for bob at red robin",
+      "true_intent": "cancel_reservation"
+    },
+    {
+      "id": 86,
+      "text": "where can i rent a car in singapore",
+      "true_intent": "car_rental"
+    },
+    {
+      "id": 87,
+      "text": "alexa, book a rental car to los angeles county in 2 hours",
+      "true_intent": "car_rental"
+    },
+    {
+      "id": 88,
+      "text": "book a car rental to miami florida today",
+      "true_intent": "car_rental"
+    },
+    {
+      "id": 89,
+      "text": "find me a car rental for the weekend in asheville, nc via priceline",
+      "true_intent": "car_rental"
+    },
+    {
+      "id": 90,
+      "text": "who can i rent a car from next month in orlando",
+      "true_intent": "car_rental"
+    },
+    {
+      "id": 91,
+      "text": "how do i fix my card, it was declined",
+      "true_intent": "card_declined"
+    },
+    {
+      "id": 92,
+      "text": "why my card stop working",
+      "true_intent": "card_declined"
+    },
+    {
+      "id": 93,
+      "text": "who do i need to contact to find out why my card got declined",
+      "true_intent": "card_declined"
+    },
+    {
+      "id": 94,
+      "text": "can you tell me why my card got declined",
+      "true_intent": "card_declined"
+    },
+    {
+      "id": 95,
+      "text": "can you help me understand why my card got declined",
+      "true_intent": "card_declined"
+    },
+    {
+      "id": 96,
+      "text": "i must know the the carry-on restrictions for american airlines",
+      "true_intent": "carry_on"
+    },
+    {
+      "id": 97,
+      "text": "i need to know the the carry-on restrictions for american airlines",
+      "true_intent": "carry_on"
+    },
+    {
+      "id": 98,
+      "text": "ist all carry-on restrictions applicable to my flight",
+      "true_intent": "carry_on"
+    },
+    {
+      "id": 99,
+      "text": "i gotta know the the carry-on restrictions for american airlines",
+      "true_intent": "carry_on"
+    },
+    {
+      "id": 100,
+      "text": "are there restrictions for carrying lighters in my backpack on a plane",
+      "true_intent": "carry_on"
+    },
+    {
+      "id": 101,
+      "text": "change to the woman voice",
+      "true_intent": "change_accent"
+    },
+    {
+      "id": 102,
+      "text": "could you use the male voice",
+      "true_intent": "change_accent"
+    },
+    {
+      "id": 103,
+      "text": "can you switch to the male voice",
+      "true_intent": "change_accent"
+    },
+    {
+      "id": 104,
+      "text": "please switch to the girl voice",
+      "true_intent": "change_accent"
+    },
+    {
+      "id": 105,
+      "text": "use the female voice",
+      "true_intent": "change_accent"
+    },
+    {
+      "id": 106,
+      "text": "i'd like to start calling you jake",
+      "true_intent": "change_ai_name"
+    },
+    {
+      "id": 107,
+      "text": "would it be possible to change your name to coraline",
+      "true_intent": "change_ai_name"
+    },
+    {
+      "id": 108,
+      "text": "start responding to joe",
+      "true_intent": "change_ai_name"
+    },
+    {
+      "id": 109,
+      "text": "how about i call you sue",
+      "true_intent": "change_ai_name"
+    },
+    {
+      "id": 110,
+      "text": "how about lets start calling you juliette",
+      "true_intent": "change_ai_name"
+    },
+    {
+      "id": 111,
+      "text": "can we speak in german",
+      "true_intent": "change_language"
+    },
+    {
+      "id": 112,
+      "text": "i'd like the language to be in spanish",
+      "true_intent": "change_language"
+    },
+    {
+      "id": 113,
+      "text": "can you make the default language swedish",
+      "true_intent": "change_language"
+    },
+    {
+      "id": 114,
+      "text": "i need you to switch the language you are responding in",
+      "true_intent": "change_language"
+    },
+    {
+      "id": 115,
+      "text": "we have to speak in english",
+      "true_intent": "change_language"
+    },
+    {
+      "id": 116,
+      "text": "slow down your voice",
+      "true_intent": "change_speed"
+    },
+    {
+      "id": 117,
+      "text": "you're talking too fast",
+      "true_intent": "change_speed"
+    },
+    {
+      "id": 118,
+      "text": "why are you talking so slowly",
+      "true_intent": "change_speed"
+    },
+    {
+      "id": 119,
+      "text": "you talk to slow",
+      "true_intent": "change_speed"
+    },
+    {
+      "id": 120,
+      "text": "speed up speech please",
+      "true_intent": "change_speed"
+    },
+    {
+      "id": 121,
+      "text": "i want you to call me bailey",
+      "true_intent": "change_user_name"
+    },
+    {
+      "id": 122,
+      "text": "don't call me bill anymore - call me bob",
+      "true_intent": "change_user_name"
+    },
+    {
+      "id": 123,
+      "text": "ai answer my questions with my name first which is deb",
+      "true_intent": "change_user_name"
+    },
+    {
+      "id": 124,
+      "text": "change name for me",
+      "true_intent": "change_user_name"
+    },
+    {
+      "id": 125,
+      "text": "please call me bailey",
+      "true_intent": "change_user_name"
+    },
+    {
+      "id": 126,
+      "text": "turn up your speaker volume",
+      "true_intent": "change_volume"
+    },
+    {
+      "id": 127,
+      "text": "please lower the sound",
+      "true_intent": "change_volume"
+    },
+    {
+      "id": 128,
+      "text": "keep volume at 4 all the time",
+      "true_intent": "change_volume"
+    },
+    {
+      "id": 129,
+      "text": "please lower your volume",
+      "true_intent": "change_volume"
+    },
+    {
+      "id": 130,
+      "text": "turn down your speaker",
+      "true_intent": "change_volume"
+    },
+    {
+      "id": 131,
+      "text": "confirm the john reservation at applebee's",
+      "true_intent": "confirm_reservation"
+    },
+    {
+      "id": 132,
+      "text": "please confirm my reservation at brio for theodore",
+      "true_intent": "confirm_reservation"
+    },
+    {
+      "id": 133,
+      "text": "please confirm that i have a reservation for march 1st at 7",
+      "true_intent": "confirm_reservation"
+    },
+    {
+      "id": 134,
+      "text": "tell me whether or not i have a reservation at gramercy tavern for tad",
+      "true_intent": "confirm_reservation"
+    },
+    {
+      "id": 135,
+      "text": "i'll be confirming my reservation for joseph at red lobster",
+      "true_intent": "confirm_reservation"
+    },
+    {
+      "id": 136,
+      "text": "how long does pizza take",
+      "true_intent": "cook_time"
+    },
+    {
+      "id": 137,
+      "text": "can you tell me how long it will take to cook a lasagna",
+      "true_intent": "cook_time"
+    },
+    {
+      "id": 138,
+      "text": "how many minutes should i set an alarm for this bake",
+      "true_intent": "cook_time"
+    },
+    {
+      "id": 139,
+      "text": "how long will it take to cook a lasagna",
+      "true_intent": "cook_time"
+    },
+    {
+      "id": 140,
+      "text": "what is the proper cooking time for this",
+      "true_intent": "cook_time"
+    },
+    {
+      "id": 141,
+      "text": "calculate the limit i have available for spending on my natwest card",
+      "true_intent": "credit_limit"
+    },
+    {
+      "id": 142,
+      "text": "how much do i have available on my visa card",
+      "true_intent": "credit_limit"
+    },
+    {
+      "id": 143,
+      "text": "what's my daily spending limit",
+      "true_intent": "credit_limit"
+    },
+    {
+      "id": 144,
+      "text": "what's the limit on my discover card",
+      "true_intent": "credit_limit"
+    },
+    {
+      "id": 145,
+      "text": "how much is my maximum to spend on credit cards",
+      "true_intent": "credit_limit"
+    },
+    {
+      "id": 146,
+      "text": "can you get my credit limit increased to $1000",
+      "true_intent": "credit_limit_change"
+    },
+    {
+      "id": 147,
+      "text": "when can i change my credit limit",
+      "true_intent": "credit_limit_change"
+    },
+    {
+      "id": 148,
+      "text": "how can i get my credit limit to be increased to $1000",
+      "true_intent": "credit_limit_change"
+    },
+    {
+      "id": 149,
+      "text": "can i increase the credit limit on my travel rewards card",
+      "true_intent": "credit_limit_change"
+    },
+    {
+      "id": 150,
+      "text": "can i get more credit",
+      "true_intent": "credit_limit_change"
+    },
+    {
+      "id": 151,
+      "text": "let me know what my credit score is today",
+      "true_intent": "credit_score"
+    },
+    {
+      "id": 152,
+      "text": "i'm trying to raise my credit score can you tell me what it is now",
+      "true_intent": "credit_score"
+    },
+    {
+      "id": 153,
+      "text": "i need to know what my credit score is",
+      "true_intent": "credit_score"
+    },
+    {
+      "id": 154,
+      "text": "give me my credit rating",
+      "true_intent": "credit_score"
+    },
+    {
+      "id": 155,
+      "text": "i want to know my credit rating",
+      "true_intent": "credit_score"
+    },
+    {
+      "id": 156,
+      "text": "show my location on the map",
+      "true_intent": "current_location"
+    },
+    {
+      "id": 157,
+      "text": "can you tell me my current location",
+      "true_intent": "current_location"
+    },
+    {
+      "id": 158,
+      "text": "find out where i am on the map",
+      "true_intent": "current_location"
+    },
+    {
+      "id": 159,
+      "text": "show me where i am on the map please",
+      "true_intent": "current_location"
+    },
+    {
+      "id": 160,
+      "text": "please tell me the current location",
+      "true_intent": "current_location"
+    },
+    {
+      "id": 161,
+      "text": "what do i do about a card that's too messed up to be properly scanned",
+      "true_intent": "damaged_card"
+    },
+    {
+      "id": 162,
+      "text": "who should i talk to about the fact that i inadvertently split my card almost in half",
+      "true_intent": "damaged_card"
+    },
+    {
+      "id": 163,
+      "text": "i accidentally deactivated the magnetic stripe on my visa debit card and i need to report it",
+      "true_intent": "damaged_card"
+    },
+    {
+      "id": 164,
+      "text": "my credit card got torn and i need a new one",
+      "true_intent": "damaged_card"
+    },
+    {
+      "id": 165,
+      "text": "i have a damaged card that needs replaced because my son dropped it in a blender",
+      "true_intent": "damaged_card"
+    },
+    {
+      "id": 166,
+      "text": "what's tomorrow's date",
+      "true_intent": "date"
+    },
+    {
+      "id": 167,
+      "text": "i need to know tomorrow's date",
+      "true_intent": "date"
+    },
+    {
+      "id": 168,
+      "text": "tell me the date 5 days from now",
+      "true_intent": "date"
+    },
+    {
+      "id": 169,
+      "text": "give me today's date",
+      "true_intent": "date"
+    },
+    {
+      "id": 170,
+      "text": "what would the date be 5 days from today",
+      "true_intent": "date"
+    },
+    {
+      "id": 171,
+      "text": "i heard some woman say she was going to yerd me, what's that mean",
+      "true_intent": "definition"
+    },
+    {
+      "id": 172,
+      "text": "can you tell me what obsolescence means",
+      "true_intent": "definition"
+    },
+    {
+      "id": 173,
+      "text": "what does mature mean",
+      "true_intent": "definition"
+    },
+    {
+      "id": 174,
+      "text": "what does anachronistic mean",
+      "true_intent": "definition"
+    },
+    {
+      "id": 175,
+      "text": "what does assiduous mean",
+      "true_intent": "definition"
+    },
+    {
+      "id": 176,
+      "text": "if i want to direct deposit my check into my nations bank account how do i do that",
+      "true_intent": "direct_deposit"
+    },
+    {
+      "id": 177,
+      "text": "activate direct deposit to chase account",
+      "true_intent": "direct_deposit"
+    },
+    {
+      "id": 178,
+      "text": "i need a direct deposit",
+      "true_intent": "direct_deposit"
+    },
+    {
+      "id": 179,
+      "text": "could you tell me how to direct deposit my check from work into nations bank",
+      "true_intent": "direct_deposit"
+    },
+    {
+      "id": 180,
+      "text": "can you tell me how to set up direct deposit",
+      "true_intent": "direct_deposit"
+    },
+    {
+      "id": 181,
+      "text": "where is the nearest movie theater to time' square",
+      "true_intent": "directions"
+    },
+    {
+      "id": 182,
+      "text": "find the closest cvs near galleria mall",
+      "true_intent": "directions"
+    },
+    {
+      "id": 183,
+      "text": "how do i get to the train by foot",
+      "true_intent": "directions"
+    },
+    {
+      "id": 184,
+      "text": "i must know the closest gas station to glendale",
+      "true_intent": "directions"
+    },
+    {
+      "id": 185,
+      "text": "where is the nearest circuit city",
+      "true_intent": "directions"
+    },
+    {
+      "id": 186,
+      "text": "how long will i be on the bus if i rid it to seattle",
+      "true_intent": "distance"
+    },
+    {
+      "id": 187,
+      "text": "so, does it take long to get to dodger stadium in anaheim",
+      "true_intent": "distance"
+    },
+    {
+      "id": 188,
+      "text": "give me an eta on when i will arrive at my destination",
+      "true_intent": "distance"
+    },
+    {
+      "id": 189,
+      "text": "what's the mileage to get the the taj mahal in atlantic city",
+      "true_intent": "distance"
+    },
+    {
+      "id": 190,
+      "text": "am i close to arriving at the post office",
+      "true_intent": "distance"
+    },
+    {
+      "id": 191,
+      "text": "would you describe yourself as a cat or dog person",
+      "true_intent": "do_you_have_pets"
+    },
+    {
+      "id": 192,
+      "text": "do you currently have any pets",
+      "true_intent": "do_you_have_pets"
+    },
+    {
+      "id": 193,
+      "text": "can you name the type of pets you have",
+      "true_intent": "do_you_have_pets"
+    },
+    {
+      "id": 194,
+      "text": "what kind of animals do you own",
+      "true_intent": "do_you_have_pets"
+    },
+    {
+      "id": 195,
+      "text": "you have what types or kinds of pets",
+      "true_intent": "do_you_have_pets"
+    },
+    {
+      "id": 196,
+      "text": "can you please convert $30 usd to canadian dollars",
+      "true_intent": "exchange_rate"
+    },
+    {
+      "id": 197,
+      "text": "how much is $30 usd in canadian dollar",
+      "true_intent": "exchange_rate"
+    },
+    {
+      "id": 198,
+      "text": "what is the usd mxn exchange rate",
+      "true_intent": "exchange_rate"
+    },
+    {
+      "id": 199,
+      "text": "what is the present exchange rate between usd and british pound",
+      "true_intent": "exchange_rate"
+    },
+    {
+      "id": 200,
+      "text": "how many japanese yen are in a us dollar",
+      "true_intent": "exchange_rate"
+    },
+    {
+      "id": 201,
+      "text": "when is the expiration date for me discover",
+      "true_intent": "expiration_date"
+    },
+    {
+      "id": 202,
+      "text": "what month does my credit card expire",
+      "true_intent": "expiration_date"
+    },
+    {
+      "id": 203,
+      "text": "when is the date of expiration for my first bank card",
+      "true_intent": "expiration_date"
+    },
+    {
+      "id": 204,
+      "text": "what is the expiration date on my chase card",
+      "true_intent": "expiration_date"
+    },
+    {
+      "id": 205,
+      "text": "when does my card expire, the one ending in 1234",
+      "true_intent": "expiration_date"
+    },
+    {
+      "id": 206,
+      "text": "do you know my phone's location",
+      "true_intent": "find_phone"
+    },
+    {
+      "id": 207,
+      "text": "i think i've misplaced my phone",
+      "true_intent": "find_phone"
+    },
+    {
+      "id": 208,
+      "text": "where did i place my phone",
+      "true_intent": "find_phone"
+    },
+    {
+      "id": 209,
+      "text": "could you help me locate my phone, please",
+      "true_intent": "find_phone"
+    },
+    {
+      "id": 210,
+      "text": "could you help me locate my phone",
+      "true_intent": "find_phone"
+    },
+    {
+      "id": 211,
+      "text": "when is my flight scheduled to board",
+      "true_intent": "flight_status"
+    },
+    {
+      "id": 212,
+      "text": "would you let me know the status of my american airlines flight",
+      "true_intent": "flight_status"
+    },
+    {
+      "id": 213,
+      "text": "what's the status of my jetblue flight",
+      "true_intent": "flight_status"
+    },
+    {
+      "id": 214,
+      "text": "what time is boarding scheduled",
+      "true_intent": "flight_status"
+    },
+    {
+      "id": 215,
+      "text": "tell me the status of my american airlines flight",
+      "true_intent": "flight_status"
+    },
+    {
+      "id": 216,
+      "text": "flip a coin, you're tails and i'm heads",
+      "true_intent": "flip_coin"
+    },
+    {
+      "id": 217,
+      "text": "flip us a coin, i call heads",
+      "true_intent": "flip_coin"
+    },
+    {
+      "id": 218,
+      "text": "flip a coin for me and i call heads",
+      "true_intent": "flip_coin"
+    },
+    {
+      "id": 219,
+      "text": "ai, please flip a simulated coin",
+      "true_intent": "flip_coin"
+    },
+    {
+      "id": 220,
+      "text": "flip coin, heads!",
+      "true_intent": "flip_coin"
+    },
+    {
+      "id": 221,
+      "text": "what is the longest i can leave meatballs in sauce in the freezer before it is no longer safe to eat",
+      "true_intent": "food_last"
+    },
+    {
+      "id": 222,
+      "text": "what is the expiration date for those eg",
+      "true_intent": "food_last"
+    },
+    {
+      "id": 223,
+      "text": "within what time is is fine to eat cooked tilapia kept in the fridge",
+      "true_intent": "food_last"
+    },
+    {
+      "id": 224,
+      "text": "how many days later is it okay to eat curry that was in the fridge",
+      "true_intent": "food_last"
+    },
+    {
+      "id": 225,
+      "text": "when does milk will go bad",
+      "true_intent": "food_last"
+    },
+    {
+      "id": 226,
+      "text": "would you be able to freeze my bank account",
+      "true_intent": "freeze_account"
+    },
+    {
+      "id": 227,
+      "text": "can you freeze my bank account",
+      "true_intent": "freeze_account"
+    },
+    {
+      "id": 228,
+      "text": "i need to lock my account right now!",
+      "true_intent": "freeze_account"
+    },
+    {
+      "id": 229,
+      "text": "how do i freeze my bank account",
+      "true_intent": "freeze_account"
+    },
+    {
+      "id": 230,
+      "text": "are you able to put a stop on my bank account",
+      "true_intent": "freeze_account"
+    },
+    {
+      "id": 231,
+      "text": "what is some trivia question about coffee",
+      "true_intent": "fun_fact"
+    },
+    {
+      "id": 232,
+      "text": "i want to learn something about apples",
+      "true_intent": "fun_fact"
+    },
+    {
+      "id": 233,
+      "text": "give me a fun fact about koala",
+      "true_intent": "fun_fact"
+    },
+    {
+      "id": 234,
+      "text": "i wanna hear something cool about bees",
+      "true_intent": "fun_fact"
+    },
+    {
+      "id": 235,
+      "text": "what's something interesting about bees",
+      "true_intent": "fun_fact"
+    },
+    {
+      "id": 236,
+      "text": "how full or empty is my tank of gas",
+      "true_intent": "gas"
+    },
+    {
+      "id": 237,
+      "text": "do i have enough fuel to travel to san diego from here",
+      "true_intent": "gas"
+    },
+    {
+      "id": 238,
+      "text": "how's my gasoline how much do i have left",
+      "true_intent": "gas"
+    },
+    {
+      "id": 239,
+      "text": "how much gas do i have here",
+      "true_intent": "gas"
+    },
+    {
+      "id": 240,
+      "text": "how much gas do i have in the tank",
+      "true_intent": "gas"
+    },
+    {
+      "id": 241,
+      "text": "what type of gas do i put in this new car",
+      "true_intent": "gas_type"
+    },
+    {
+      "id": 242,
+      "text": "what kind of gas does your car use",
+      "true_intent": "gas_type"
+    },
+    {
+      "id": 243,
+      "text": "which type of gas should i get",
+      "true_intent": "gas_type"
+    },
+    {
+      "id": 244,
+      "text": "can you tell me what kind of gas your car uses",
+      "true_intent": "gas_type"
+    },
+    {
+      "id": 245,
+      "text": "what kind of gas should i use for this car",
+      "true_intent": "gas_type"
+    },
+    {
+      "id": 246,
+      "text": "thanks for your help, goodbye!",
+      "true_intent": "goodbye"
+    },
+    {
+      "id": 247,
+      "text": "good bye then",
+      "true_intent": "goodbye"
+    },
+    {
+      "id": 248,
+      "text": "it was great talking to you",
+      "true_intent": "goodbye"
+    },
+    {
+      "id": 249,
+      "text": "ok good chatting goodbye",
+      "true_intent": "goodbye"
+    },
+    {
+      "id": 250,
+      "text": "bye",
+      "true_intent": "goodbye"
+    },
+    {
+      "id": 251,
+      "text": "well hi there",
+      "true_intent": "greeting"
+    },
+    {
+      "id": 252,
+      "text": "what are you feeling today",
+      "true_intent": "greeting"
+    },
+    {
+      "id": 253,
+      "text": "hi there, how are you doing",
+      "true_intent": "greeting"
+    },
+    {
+      "id": 254,
+      "text": "how are you doing",
+      "true_intent": "greeting"
+    },
+    {
+      "id": 255,
+      "text": "hello there ai",
+      "true_intent": "greeting"
+    },
+    {
+      "id": 256,
+      "text": "is there a long wait at chili's around 5:00",
+      "true_intent": "how_busy"
+    },
+    {
+      "id": 257,
+      "text": "i need to know how busy denny's is at 6 am",
+      "true_intent": "how_busy"
+    },
+    {
+      "id": 258,
+      "text": "how busy is cheesecake factory right now",
+      "true_intent": "how_busy"
+    },
+    {
+      "id": 259,
+      "text": "does mr joes pizza usually have a long wait",
+      "true_intent": "how_busy"
+    },
+    {
+      "id": 260,
+      "text": "are cool people at the bar at 9:00 pm",
+      "true_intent": "how_busy"
+    },
+    {
+      "id": 261,
+      "text": "how many years have you been alive",
+      "true_intent": "how_old_are_you"
+    },
+    {
+      "id": 262,
+      "text": "i need to know your age",
+      "true_intent": "how_old_are_you"
+    },
+    {
+      "id": 263,
+      "text": "please tell me your age",
+      "true_intent": "how_old_are_you"
+    },
+    {
+      "id": 264,
+      "text": "how young are you",
+      "true_intent": "how_old_are_you"
+    },
+    {
+      "id": 265,
+      "text": "your birthday please",
+      "true_intent": "how_old_are_you"
+    },
+    {
+      "id": 266,
+      "text": "i have a revolving store card and defaulted so will my fico score be affected",
+      "true_intent": "improve_credit_score"
+    },
+    {
+      "id": 267,
+      "text": "can you tell me some strategies for raising my credit score",
+      "true_intent": "improve_credit_score"
+    },
+    {
+      "id": 268,
+      "text": "how can i up my credit score",
+      "true_intent": "improve_credit_score"
+    },
+    {
+      "id": 269,
+      "text": "how is it possible to get a better credit score",
+      "true_intent": "improve_credit_score"
+    },
+    {
+      "id": 270,
+      "text": "how can i keep my credit score from falling",
+      "true_intent": "improve_credit_score"
+    },
+    {
+      "id": 271,
+      "text": "what's the amount of my income",
+      "true_intent": "income"
+    },
+    {
+      "id": 272,
+      "text": "how much am i paid a year",
+      "true_intent": "income"
+    },
+    {
+      "id": 273,
+      "text": "how much do i earn",
+      "true_intent": "income"
+    },
+    {
+      "id": 274,
+      "text": "what's my salary",
+      "true_intent": "income"
+    },
+    {
+      "id": 275,
+      "text": "what amount of money do i earn",
+      "true_intent": "income"
+    },
+    {
+      "id": 276,
+      "text": "would it be ok to use butter instead of oil",
+      "true_intent": "ingredient_substitution"
+    },
+    {
+      "id": 277,
+      "text": "can i use butter instead of margarine",
+      "true_intent": "ingredient_substitution"
+    },
+    {
+      "id": 278,
+      "text": "could steak be used instead of chicken",
+      "true_intent": "ingredient_substitution"
+    },
+    {
+      "id": 279,
+      "text": "is it okay to use applesauce instead of oil",
+      "true_intent": "ingredient_substitution"
+    },
+    {
+      "id": 280,
+      "text": "can i use skim milk instead of 2% in the recipe",
+      "true_intent": "ingredient_substitution"
+    },
+    {
+      "id": 281,
+      "text": "what's a good recipe foe tacos",
+      "true_intent": "ingredients_list"
+    },
+    {
+      "id": 282,
+      "text": "what do i need to make authentic kimchi",
+      "true_intent": "ingredients_list"
+    },
+    {
+      "id": 283,
+      "text": "tell me the ingredients for making tom yum",
+      "true_intent": "ingredients_list"
+    },
+    {
+      "id": 284,
+      "text": "what ingredients do you need to make lasagna",
+      "true_intent": "ingredients_list"
+    },
+    {
+      "id": 285,
+      "text": "let me know what ingredients i need to make pasta",
+      "true_intent": "ingredients_list"
+    },
+    {
+      "id": 286,
+      "text": "how do my health benefits work",
+      "true_intent": "insurance"
+    },
+    {
+      "id": 287,
+      "text": "tell me the full name of my health plan",
+      "true_intent": "insurance"
+    },
+    {
+      "id": 288,
+      "text": "what are my benefits on the insurance",
+      "true_intent": "insurance"
+    },
+    {
+      "id": 289,
+      "text": "what sort of health benefits do i have",
+      "true_intent": "insurance"
+    },
+    {
+      "id": 290,
+      "text": "which insurance plan to i have",
+      "true_intent": "insurance"
+    },
+    {
+      "id": 291,
+      "text": "what are the steps to change my insurance policy",
+      "true_intent": "insurance_change"
+    },
+    {
+      "id": 292,
+      "text": "is there a way to alter my insurance policy",
+      "true_intent": "insurance_change"
+    },
+    {
+      "id": 293,
+      "text": "what do i need to do to get new insurance",
+      "true_intent": "insurance_change"
+    },
+    {
+      "id": 294,
+      "text": "i really would like to get a new insurance plan",
+      "true_intent": "insurance_change"
+    },
+    {
+      "id": 295,
+      "text": "i would like to change my insurance policy",
+      "true_intent": "insurance_change"
+    },
+    {
+      "id": 296,
+      "text": "what interest rate am i getting from sunflower bank",
+      "true_intent": "interest_rate"
+    },
+    {
+      "id": 297,
+      "text": "tell me the interest for my savings account",
+      "true_intent": "interest_rate"
+    },
+    {
+      "id": 298,
+      "text": "what amount of interest does my checking account at chase earn",
+      "true_intent": "interest_rate"
+    },
+    {
+      "id": 299,
+      "text": "what's my bank of america account getting in interest",
+      "true_intent": "interest_rate"
+    },
+    {
+      "id": 300,
+      "text": "i need to get the interest rate of my savings account",
+      "true_intent": "interest_rate"
+    },
+    {
+      "id": 301,
+      "text": "do i get charged extra for using my card in portland",
+      "true_intent": "international_fees"
+    },
+    {
+      "id": 302,
+      "text": "will i be charged transaction fees if i use my american card internationally",
+      "true_intent": "international_fees"
+    },
+    {
+      "id": 303,
+      "text": "is there a fee if i use my card in france",
+      "true_intent": "international_fees"
+    },
+    {
+      "id": 304,
+      "text": "so i get charged if i use my card in france",
+      "true_intent": "international_fees"
+    },
+    {
+      "id": 305,
+      "text": "is there an international charge for using my card in france",
+      "true_intent": "international_fees"
+    },
+    {
+      "id": 306,
+      "text": "do i need a visa if i'm going to san jose",
+      "true_intent": "international_visa"
+    },
+    {
+      "id": 307,
+      "text": "are visas required to go to cuba",
+      "true_intent": "international_visa"
+    },
+    {
+      "id": 308,
+      "text": "should i get a travel visa if i want to go to guyana",
+      "true_intent": "international_visa"
+    },
+    {
+      "id": 309,
+      "text": "do i need a states visa to get to cuba",
+      "true_intent": "international_visa"
+    },
+    {
+      "id": 310,
+      "text": "i'd like to go to malaysia so do i need a visa",
+      "true_intent": "international_visa"
+    },
+    {
+      "id": 311,
+      "text": "what should i do to get my car jump started",
+      "true_intent": "jump_start"
+    },
+    {
+      "id": 312,
+      "text": "i really need to jump start my car",
+      "true_intent": "jump_start"
+    },
+    {
+      "id": 313,
+      "text": "what do i need to do now that my battery is dead",
+      "true_intent": "jump_start"
+    },
+    {
+      "id": 314,
+      "text": "how can i go about jump starting my car",
+      "true_intent": "jump_start"
+    },
+    {
+      "id": 315,
+      "text": "what do i do now that my battery is dead",
+      "true_intent": "jump_start"
+    },
+    {
+      "id": 316,
+      "text": "i'd like to know the last time my car got looked at",
+      "true_intent": "last_maintenance"
+    },
+    {
+      "id": 317,
+      "text": "what was the date of my last car appointment",
+      "true_intent": "last_maintenance"
+    },
+    {
+      "id": 318,
+      "text": "when did i last take my car to the shop",
+      "true_intent": "last_maintenance"
+    },
+    {
+      "id": 319,
+      "text": "did i get my car inspected recently",
+      "true_intent": "last_maintenance"
+    },
+    {
+      "id": 320,
+      "text": "how many weeks ago was my car in the shop",
+      "true_intent": "last_maintenance"
+    },
+    {
+      "id": 321,
+      "text": "what would be the best way to deal with lost luggage",
+      "true_intent": "lost_luggage"
+    },
+    {
+      "id": 322,
+      "text": "what steps should i take if my luggage has been lost",
+      "true_intent": "lost_luggage"
+    },
+    {
+      "id": 323,
+      "text": "i am a bit panicked because my luggage seems to have gone missing",
+      "true_intent": "lost_luggage"
+    },
+    {
+      "id": 324,
+      "text": "i have no idea where my luggage went!",
+      "true_intent": "lost_luggage"
+    },
+    {
+      "id": 325,
+      "text": "i've lost my luggage what should i do now",
+      "true_intent": "lost_luggage"
+    },
+    {
+      "id": 326,
+      "text": "could you call sal",
+      "true_intent": "make_call"
+    },
+    {
+      "id": 327,
+      "text": "i need you to call the phone company for me",
+      "true_intent": "make_call"
+    },
+    {
+      "id": 328,
+      "text": "x needs to be called by me",
+      "true_intent": "make_call"
+    },
+    {
+      "id": 329,
+      "text": "please make a call to stefan larson",
+      "true_intent": "make_call"
+    },
+    {
+      "id": 330,
+      "text": "dial her up",
+      "true_intent": "make_call"
+    },
+    {
+      "id": 331,
+      "text": "i'm not completely certain",
+      "true_intent": "maybe"
+    },
+    {
+      "id": 332,
+      "text": "it's definitely a maybe for that",
+      "true_intent": "maybe"
+    },
+    {
+      "id": 333,
+      "text": "i'm afraid i don't know how to answer that",
+      "true_intent": "maybe"
+    },
+    {
+      "id": 334,
+      "text": "i am unable to say",
+      "true_intent": "maybe"
+    },
+    {
+      "id": 335,
+      "text": "it might go either way",
+      "true_intent": "maybe"
+    },
+    {
+      "id": 336,
+      "text": "i want a meal from vietnam to be suggested to me",
+      "true_intent": "meal_suggestion"
+    },
+    {
+      "id": 337,
+      "text": "i need some ideas for a mexican meal",
+      "true_intent": "meal_suggestion"
+    },
+    {
+      "id": 338,
+      "text": "do you have any ideas for a mexican meal",
+      "true_intent": "meal_suggestion"
+    },
+    {
+      "id": 339,
+      "text": "tell me what meal to eat from texas",
+      "true_intent": "meal_suggestion"
+    },
+    {
+      "id": 340,
+      "text": "i need a good italian dish",
+      "true_intent": "meal_suggestion"
+    },
+    {
+      "id": 341,
+      "text": "right now, i need to know the meaning of life",
+      "true_intent": "meaning_of_life"
+    },
+    {
+      "id": 342,
+      "text": "do you think our lives have purpose or meaning",
+      "true_intent": "meaning_of_life"
+    },
+    {
+      "id": 343,
+      "text": "what information can you give me on the meaning of life",
+      "true_intent": "meaning_of_life"
+    },
+    {
+      "id": 344,
+      "text": "is there a reason beyond biology about why humans are alive",
+      "true_intent": "meaning_of_life"
+    },
+    {
+      "id": 345,
+      "text": "i need to know what the meaning of life is now",
+      "true_intent": "meaning_of_life"
+    },
+    {
+      "id": 346,
+      "text": "how many grams are in 9 kilograms",
+      "true_intent": "measurement_conversion"
+    },
+    {
+      "id": 347,
+      "text": "how many teaspoons will make one tablespoon",
+      "true_intent": "measurement_conversion"
+    },
+    {
+      "id": 348,
+      "text": "how many ounces are in 4 pounds",
+      "true_intent": "measurement_conversion"
+    },
+    {
+      "id": 349,
+      "text": "how does measurement slugs convert to measurement lb",
+      "true_intent": "measurement_conversion"
+    },
+    {
+      "id": 350,
+      "text": "i wanna know how many pounds are in 10 kilos",
+      "true_intent": "measurement_conversion"
+    },
+    {
+      "id": 351,
+      "text": "list meetings on calendar for today",
+      "true_intent": "meeting_schedule"
+    },
+    {
+      "id": 352,
+      "text": "tell me when today's meeting is supposed to happen",
+      "true_intent": "meeting_schedule"
+    },
+    {
+      "id": 353,
+      "text": "what time is my meeting with design team scheduled for",
+      "true_intent": "meeting_schedule"
+    },
+    {
+      "id": 354,
+      "text": "exactly what time is my meeting with robin scheduled for on",
+      "true_intent": "meeting_schedule"
+    },
+    {
+      "id": 355,
+      "text": "do i have any meetings scheduled today",
+      "true_intent": "meeting_schedule"
+    },
+    {
+      "id": 356,
+      "text": "what's the least i can pay this month",
+      "true_intent": "min_payment"
+    },
+    {
+      "id": 357,
+      "text": "what is the lowest amount i can pay for my medical bill",
+      "true_intent": "min_payment"
+    },
+    {
+      "id": 358,
+      "text": "tell me the minimum i can pay on my utilities bill",
+      "true_intent": "min_payment"
+    },
+    {
+      "id": 359,
+      "text": "is there a minimum payment i can make",
+      "true_intent": "min_payment"
+    },
+    {
+      "id": 360,
+      "text": "if i wanted to spend the lowest for my electric bill, then how much would it be",
+      "true_intent": "min_payment"
+    },
+    {
+      "id": 361,
+      "text": "what the mpg",
+      "true_intent": "mpg"
+    },
+    {
+      "id": 362,
+      "text": "what is the miles per gallon",
+      "true_intent": "mpg"
+    },
+    {
+      "id": 363,
+      "text": "tell me: car gas mileage",
+      "true_intent": "mpg"
+    },
+    {
+      "id": 364,
+      "text": "how many mpg does this car get in the city",
+      "true_intent": "mpg"
+    },
+    {
+      "id": 365,
+      "text": "mpg for this car please",
+      "true_intent": "mpg"
+    },
+    {
+      "id": 366,
+      "text": "i wish to apply for a visa card",
+      "true_intent": "new_card"
+    },
+    {
+      "id": 367,
+      "text": "i want to know how to go about getting a new credit card",
+      "true_intent": "new_card"
+    },
+    {
+      "id": 368,
+      "text": "tell me how to apply for a new credit card",
+      "true_intent": "new_card"
+    },
+    {
+      "id": 369,
+      "text": "i would love to get a new credit card",
+      "true_intent": "new_card"
+    },
+    {
+      "id": 370,
+      "text": "can i apply for a visa card",
+      "true_intent": "new_card"
+    },
+    {
+      "id": 371,
+      "text": "find the next holiday",
+      "true_intent": "next_holiday"
+    },
+    {
+      "id": 372,
+      "text": "i wanna know the next holiday",
+      "true_intent": "next_holiday"
+    },
+    {
+      "id": 373,
+      "text": "when is the next day we have off",
+      "true_intent": "next_holiday"
+    },
+    {
+      "id": 374,
+      "text": "when will our next day off be",
+      "true_intent": "next_holiday"
+    },
+    {
+      "id": 375,
+      "text": "on what day is our next free day",
+      "true_intent": "next_holiday"
+    },
+    {
+      "id": 376,
+      "text": "next song",
+      "true_intent": "next_song"
+    },
+    {
+      "id": 377,
+      "text": "play next song",
+      "true_intent": "next_song"
+    },
+    {
+      "id": 378,
+      "text": "go to upcoming song",
+      "true_intent": "next_song"
+    },
+    {
+      "id": 379,
+      "text": "skip this track",
+      "true_intent": "next_song"
+    },
+    {
+      "id": 380,
+      "text": "move forward one song",
+      "true_intent": "next_song"
+    },
+    {
+      "id": 381,
+      "text": "that's not correct",
+      "true_intent": "no"
+    },
+    {
+      "id": 382,
+      "text": "that is incorrect",
+      "true_intent": "no"
+    },
+    {
+      "id": 383,
+      "text": "it is very much false",
+      "true_intent": "no"
+    },
+    {
+      "id": 384,
+      "text": "that isn't right",
+      "true_intent": "no"
+    },
+    {
+      "id": 385,
+      "text": "no, definitely not",
+      "true_intent": "no"
+    },
+    {
+      "id": 386,
+      "text": "please give me the nutritional information for an egg",
+      "true_intent": "nutrition_info"
+    },
+    {
+      "id": 387,
+      "text": "tell me the nutrition info for a cup of milk",
+      "true_intent": "nutrition_info"
+    },
+    {
+      "id": 388,
+      "text": "give me the nutritional details for a cup of yogurt",
+      "true_intent": "nutrition_info"
+    },
+    {
+      "id": 389,
+      "text": "tell me nutritional info for brocoli",
+      "true_intent": "nutrition_info"
+    },
+    {
+      "id": 390,
+      "text": "how healthy is tacos",
+      "true_intent": "nutrition_info"
+    },
+    {
+      "id": 391,
+      "text": "i want to know how to change my oil",
+      "true_intent": "oil_change_how"
+    },
+    {
+      "id": 392,
+      "text": "i want a step by step explanation of how to change the oil in my car",
+      "true_intent": "oil_change_how"
+    },
+    {
+      "id": 393,
+      "text": "walk me through the steps involved in changing my oil",
+      "true_intent": "oil_change_how"
+    },
+    {
+      "id": 394,
+      "text": "what oil do i use when changing oil and how do i do it",
+      "true_intent": "oil_change_how"
+    },
+    {
+      "id": 395,
+      "text": "i need guidance on changing my oil",
+      "true_intent": "oil_change_how"
+    },
+    {
+      "id": 396,
+      "text": "when's the next time i ought to change my oil",
+      "true_intent": "oil_change_when"
+    },
+    {
+      "id": 397,
+      "text": "when is the next time i should change my oil",
+      "true_intent": "oil_change_when"
+    },
+    {
+      "id": 398,
+      "text": "how long until my next oil change",
+      "true_intent": "oil_change_when"
+    },
+    {
+      "id": 399,
+      "text": "when is the next time i need to get an oil change",
+      "true_intent": "oil_change_when"
+    },
+    {
+      "id": 400,
+      "text": "can you recommend for me when to next get my oil changed",
+      "true_intent": "oil_change_when"
+    },
+    {
+      "id": 401,
+      "text": "place my order alexa",
+      "true_intent": "order"
+    },
+    {
+      "id": 402,
+      "text": "please buy me something",
+      "true_intent": "order"
+    },
+    {
+      "id": 403,
+      "text": "alexa, buy my grocery list",
+      "true_intent": "order"
+    },
+    {
+      "id": 404,
+      "text": "get me an order of creatine powder",
+      "true_intent": "order"
+    },
+    {
+      "id": 405,
+      "text": "siri, place my amazon order",
+      "true_intent": "order"
+    },
+    {
+      "id": 406,
+      "text": "where do i go to order more checks for my well's fargo account",
+      "true_intent": "order_checks"
+    },
+    {
+      "id": 407,
+      "text": "how do i order some more checks for my chase account",
+      "true_intent": "order_checks"
+    },
+    {
+      "id": 408,
+      "text": "how do i order some checkbooks for my chase account",
+      "true_intent": "order_checks"
+    },
+    {
+      "id": 409,
+      "text": "how do i order some more checks for my bank of america account",
+      "true_intent": "order_checks"
+    },
+    {
+      "id": 410,
+      "text": "please mail me more checkbooks",
+      "true_intent": "order_checks"
+    },
+    {
+      "id": 411,
+      "text": "how's my amazon order doing",
+      "true_intent": "order_status"
+    },
+    {
+      "id": 412,
+      "text": "tell me where my order is",
+      "true_intent": "order_status"
+    },
+    {
+      "id": 413,
+      "text": "where is my order now",
+      "true_intent": "order_status"
+    },
+    {
+      "id": 414,
+      "text": "how is my order doing right now",
+      "true_intent": "order_status"
+    },
+    {
+      "id": 415,
+      "text": "what is the status of the order i placed with you yesterday",
+      "true_intent": "order_status"
+    },
+    {
+      "id": 416,
+      "text": "pay my con edison bill using my capital one account",
+      "true_intent": "pay_bill"
+    },
+    {
+      "id": 417,
+      "text": "use my navy federal account and pay this month's verizon bill, please",
+      "true_intent": "pay_bill"
+    },
+    {
+      "id": 418,
+      "text": "pay my electric bill for me",
+      "true_intent": "pay_bill"
+    },
+    {
+      "id": 419,
+      "text": "pay $175 on my visa",
+      "true_intent": "pay_bill"
+    },
+    {
+      "id": 420,
+      "text": "i want to pay my bill through the app",
+      "true_intent": "pay_bill"
+    },
+    {
+      "id": 421,
+      "text": "i need to know when i get paid next",
+      "true_intent": "payday"
+    },
+    {
+      "id": 422,
+      "text": "look up the date for my next payday",
+      "true_intent": "payday"
+    },
+    {
+      "id": 423,
+      "text": "when do i get paid for my work",
+      "true_intent": "payday"
+    },
+    {
+      "id": 424,
+      "text": "what day is payday",
+      "true_intent": "payday"
+    },
+    {
+      "id": 425,
+      "text": "when do i get my next paycheck",
+      "true_intent": "payday"
+    },
+    {
+      "id": 426,
+      "text": "does my checking account have a pin number",
+      "true_intent": "pin_change"
+    },
+    {
+      "id": 427,
+      "text": "i do not recall the pin number to my card",
+      "true_intent": "pin_change"
+    },
+    {
+      "id": 428,
+      "text": "can you make 1234 the pin for my savings account",
+      "true_intent": "pin_change"
+    },
+    {
+      "id": 429,
+      "text": "how do i change the account pin number for me",
+      "true_intent": "pin_change"
+    },
+    {
+      "id": 430,
+      "text": "what exactly is my pin",
+      "true_intent": "pin_change"
+    },
+    {
+      "id": 431,
+      "text": "can you play the song that goes like, \"starships were meant to fly",
+      "true_intent": "play_music"
+    },
+    {
+      "id": 432,
+      "text": "i want to hear my slow playlist",
+      "true_intent": "play_music"
+    },
+    {
+      "id": 433,
+      "text": "let me hear my slow songs",
+      "true_intent": "play_music"
+    },
+    {
+      "id": 434,
+      "text": "play music by ludacris",
+      "true_intent": "play_music"
+    },
+    {
+      "id": 435,
+      "text": "can you play music by led zepplin",
+      "true_intent": "play_music"
+    },
+    {
+      "id": 436,
+      "text": "will i need to have a plug converter when i visit madrid",
+      "true_intent": "plug_type"
+    },
+    {
+      "id": 437,
+      "text": "electrical plugs used in that country",
+      "true_intent": "plug_type"
+    },
+    {
+      "id": 438,
+      "text": "how do i plug stuff in in france",
+      "true_intent": "plug_type"
+    },
+    {
+      "id": 439,
+      "text": "are socket converters needed if i'm going to cape town",
+      "true_intent": "plug_type"
+    },
+    {
+      "id": 440,
+      "text": "do i require a plug converter when i visit puerto rico",
+      "true_intent": "plug_type"
+    },
+    {
+      "id": 441,
+      "text": "what number of days do i have for vacation",
+      "true_intent": "pto_balance"
+    },
+    {
+      "id": 442,
+      "text": "how much vacation time have i earned",
+      "true_intent": "pto_balance"
+    },
+    {
+      "id": 443,
+      "text": "i would like to know my vacation days balance",
+      "true_intent": "pto_balance"
+    },
+    {
+      "id": 444,
+      "text": "so i have any vacation days left",
+      "true_intent": "pto_balance"
+    },
+    {
+      "id": 445,
+      "text": "how many days can i take for vacation",
+      "true_intent": "pto_balance"
+    },
+    {
+      "id": 446,
+      "text": "how do i get help with a vacation itinerary",
+      "true_intent": "pto_request"
+    },
+    {
+      "id": 447,
+      "text": "can i put in a pto request for january 4th to january 9th",
+      "true_intent": "pto_request"
+    },
+    {
+      "id": 448,
+      "text": "can i purchase a vacation using this",
+      "true_intent": "pto_request"
+    },
+    {
+      "id": 449,
+      "text": "vacation request information",
+      "true_intent": "pto_request"
+    },
+    {
+      "id": 450,
+      "text": "please help me set up a vacation request",
+      "true_intent": "pto_request"
+    },
+    {
+      "id": 451,
+      "text": "is there a status update on my vacation approval",
+      "true_intent": "pto_request_status"
+    },
+    {
+      "id": 452,
+      "text": "what is the day off request status if you could tell me",
+      "true_intent": "pto_request_status"
+    },
+    {
+      "id": 453,
+      "text": "tell me status of my day off request",
+      "true_intent": "pto_request_status"
+    },
+    {
+      "id": 454,
+      "text": "any news on my vacation",
+      "true_intent": "pto_request_status"
+    },
+    {
+      "id": 455,
+      "text": "what is the day off request status if you would tell me",
+      "true_intent": "pto_request_status"
+    },
+    {
+      "id": 456,
+      "text": "can you look and see how many days off i have taken so far since january",
+      "true_intent": "pto_used"
+    },
+    {
+      "id": 457,
+      "text": "tell me how many days i took off",
+      "true_intent": "pto_used"
+    },
+    {
+      "id": 458,
+      "text": "see how many days i've taken off so far",
+      "true_intent": "pto_used"
+    },
+    {
+      "id": 459,
+      "text": "how much of my pto is gone",
+      "true_intent": "pto_used"
+    },
+    {
+      "id": 460,
+      "text": "pto so far i have used is how much",
+      "true_intent": "pto_used"
+    },
+    {
+      "id": 461,
+      "text": "how do you make pasta",
+      "true_intent": "recipe"
+    },
+    {
+      "id": 462,
+      "text": "show me ideas for hamburger",
+      "true_intent": "recipe"
+    },
+    {
+      "id": 463,
+      "text": "i need a pasta recipe",
+      "true_intent": "recipe"
+    },
+    {
+      "id": 464,
+      "text": "scan you find me a chicken recipe",
+      "true_intent": "recipe"
+    },
+    {
+      "id": 465,
+      "text": "find a recipe for baked ziti",
+      "true_intent": "recipe"
+    },
+    {
+      "id": 466,
+      "text": "how can i cash out my rewards for a visa card",
+      "true_intent": "redeem_rewards"
+    },
+    {
+      "id": 467,
+      "text": "what are my mastercard points good for",
+      "true_intent": "redeem_rewards"
+    },
+    {
+      "id": 468,
+      "text": "how do i use my card reward points for my next flight",
+      "true_intent": "redeem_rewards"
+    },
+    {
+      "id": 469,
+      "text": "help me redeem my reward points",
+      "true_intent": "redeem_rewards"
+    },
+    {
+      "id": 470,
+      "text": "can i redeem my points for flights",
+      "true_intent": "redeem_rewards"
+    },
+    {
+      "id": 471,
+      "text": "what are all the things on my reminder list",
+      "true_intent": "reminder"
+    },
+    {
+      "id": 472,
+      "text": "please go though the bullet points on my reminder list",
+      "true_intent": "reminder"
+    },
+    {
+      "id": 473,
+      "text": "i'd like to just confirm all of the reminders currently on my list of reminders, please",
+      "true_intent": "reminder"
+    },
+    {
+      "id": 474,
+      "text": "my list of reminders contains what",
+      "true_intent": "reminder"
+    },
+    {
+      "id": 475,
+      "text": "what were the things that i wanted to remember",
+      "true_intent": "reminder"
+    },
+    {
+      "id": 476,
+      "text": "i need to be reminded to do something",
+      "true_intent": "reminder_update"
+    },
+    {
+      "id": 477,
+      "text": "make a reminder to pay the mortgage",
+      "true_intent": "reminder_update"
+    },
+    {
+      "id": 478,
+      "text": "help me to remember to pick up stan later",
+      "true_intent": "reminder_update"
+    },
+    {
+      "id": 479,
+      "text": "i want to be reminded to pay the electric bill",
+      "true_intent": "reminder_update"
+    },
+    {
+      "id": 480,
+      "text": "create a reminder to wash the dishes",
+      "true_intent": "reminder_update"
+    },
+    {
+      "id": 481,
+      "text": "repeat that for me please",
+      "true_intent": "repeat"
+    },
+    {
+      "id": 482,
+      "text": "can you please repeat that",
+      "true_intent": "repeat"
+    },
+    {
+      "id": 483,
+      "text": "would you mind repeating that",
+      "true_intent": "repeat"
+    },
+    {
+      "id": 484,
+      "text": "can you please say that again",
+      "true_intent": "repeat"
+    },
+    {
+      "id": 485,
+      "text": "can you repeat the question again",
+      "true_intent": "repeat"
+    },
+    {
+      "id": 486,
+      "text": "what is the shipping status of my replacement card",
+      "true_intent": "replacement_card_duration"
+    },
+    {
+      "id": 487,
+      "text": "let me know the wait on a replacement credit card",
+      "true_intent": "replacement_card_duration"
+    },
+    {
+      "id": 488,
+      "text": "how long before the replacement card is mailed to me",
+      "true_intent": "replacement_card_duration"
+    },
+    {
+      "id": 489,
+      "text": "how long before my new card is mailed to me",
+      "true_intent": "replacement_card_duration"
+    },
+    {
+      "id": 490,
+      "text": "time to replace my credit card",
+      "true_intent": "replacement_card_duration"
+    },
+    {
+      "id": 491,
+      "text": "someone else used my account to buy stuff from mcdonald's",
+      "true_intent": "report_fraud"
+    },
+    {
+      "id": 492,
+      "text": "i have a fraudulent buy from dave's video on my account",
+      "true_intent": "report_fraud"
+    },
+    {
+      "id": 493,
+      "text": "my online bill has some items that i didn't purchase from penneys",
+      "true_intent": "report_fraud"
+    },
+    {
+      "id": 494,
+      "text": "my bill shows a purchase from payless shoes but i didn't buy anything",
+      "true_intent": "report_fraud"
+    },
+    {
+      "id": 495,
+      "text": "i have some charges on my account from old navy that aren't mine",
+      "true_intent": "report_fraud"
+    },
+    {
+      "id": 496,
+      "text": "what steps do i need to take to report a card lost",
+      "true_intent": "report_lost_card"
+    },
+    {
+      "id": 497,
+      "text": "can you report a lost card for me",
+      "true_intent": "report_lost_card"
+    },
+    {
+      "id": 498,
+      "text": "can you tell me how to report a card lost",
+      "true_intent": "report_lost_card"
+    },
+    {
+      "id": 499,
+      "text": "please help me report my lost card",
+      "true_intent": "report_lost_card"
+    },
+    {
+      "id": 500,
+      "text": "my capital one visa was taken without permission",
+      "true_intent": "report_lost_card"
+    },
+    {
+      "id": 501,
+      "text": "revert to factory settings",
+      "true_intent": "reset_settings"
+    },
+    {
+      "id": 502,
+      "text": "change all setting to original ones",
+      "true_intent": "reset_settings"
+    },
+    {
+      "id": 503,
+      "text": "change back to the factory set up",
+      "true_intent": "reset_settings"
+    },
+    {
+      "id": 504,
+      "text": "please turn on factory settings",
+      "true_intent": "reset_settings"
+    },
+    {
+      "id": 505,
+      "text": "can you return to the factory fresh settings",
+      "true_intent": "reset_settings"
+    },
+    {
+      "id": 506,
+      "text": "i need a table at gemma for nine at two",
+      "true_intent": "restaurant_reservation"
+    },
+    {
+      "id": 507,
+      "text": "get me a table for five at itta bena at three",
+      "true_intent": "restaurant_reservation"
+    },
+    {
+      "id": 508,
+      "text": "i want to eat at seven in the restaurant for two people",
+      "true_intent": "restaurant_reservation"
+    },
+    {
+      "id": 509,
+      "text": "look for me a table at carl's cabin for twelve at eight",
+      "true_intent": "restaurant_reservation"
+    },
+    {
+      "id": 510,
+      "text": "michael will reserve a table for two at 7:00pm for olive garden",
+      "true_intent": "restaurant_reservation"
+    },
+    {
+      "id": 511,
+      "text": "what do people think of the new burger at mcdonalds",
+      "true_intent": "restaurant_reviews"
+    },
+    {
+      "id": 512,
+      "text": "what do food critics say about gramercy tavern",
+      "true_intent": "restaurant_reviews"
+    },
+    {
+      "id": 513,
+      "text": "how many stars does brasserie les halles have",
+      "true_intent": "restaurant_reviews"
+    },
+    {
+      "id": 514,
+      "text": "what's the average review for olive garden",
+      "true_intent": "restaurant_reviews"
+    },
+    {
+      "id": 515,
+      "text": "do people say per se is any good or not",
+      "true_intent": "restaurant_reviews"
+    },
+    {
+      "id": 516,
+      "text": "can you search recommended casual restaurants for tonight in philadelphia",
+      "true_intent": "restaurant_suggestion"
+    },
+    {
+      "id": 517,
+      "text": "show me some restaurants that have high reviews for eating out",
+      "true_intent": "restaurant_suggestion"
+    },
+    {
+      "id": 518,
+      "text": "i need some suggestions for dinner places tonight",
+      "true_intent": "restaurant_suggestion"
+    },
+    {
+      "id": 519,
+      "text": "pull up some recommendations for places serving fish in maine",
+      "true_intent": "restaurant_suggestion"
+    },
+    {
+      "id": 520,
+      "text": "where should i eat",
+      "true_intent": "restaurant_suggestion"
+    },
+    {
+      "id": 521,
+      "text": "i really need to check my rewards for my credit card",
+      "true_intent": "rewards_balance"
+    },
+    {
+      "id": 522,
+      "text": "tell me the number of points on my visa card",
+      "true_intent": "rewards_balance"
+    },
+    {
+      "id": 523,
+      "text": "i must know how many points have i earned with my credit card",
+      "true_intent": "rewards_balance"
+    },
+    {
+      "id": 524,
+      "text": "i wanna know how many points have i earned with my credit card",
+      "true_intent": "rewards_balance"
+    },
+    {
+      "id": 525,
+      "text": "i need to know my credit card's rewards balance",
+      "true_intent": "rewards_balance"
+    },
+    {
+      "id": 526,
+      "text": "ai shake the dice in a cup, then throw dice on table",
+      "true_intent": "roll_dice"
+    },
+    {
+      "id": 527,
+      "text": "how much do you get when you roll an eight sided die",
+      "true_intent": "roll_dice"
+    },
+    {
+      "id": 528,
+      "text": "roll a die please",
+      "true_intent": "roll_dice"
+    },
+    {
+      "id": 529,
+      "text": "roll those dice once",
+      "true_intent": "roll_dice"
+    },
+    {
+      "id": 530,
+      "text": "throw a roll of the dice",
+      "true_intent": "roll_dice"
+    },
+    {
+      "id": 531,
+      "text": "can i transfer my 401k somewhere",
+      "true_intent": "rollover_401k"
+    },
+    {
+      "id": 532,
+      "text": "my 401k needs to rollover and i need your help",
+      "true_intent": "rollover_401k"
+    },
+    {
+      "id": 533,
+      "text": "i need some help with transferring my 401k, can you help",
+      "true_intent": "rollover_401k"
+    },
+    {
+      "id": 534,
+      "text": "can 401ks be moved",
+      "true_intent": "rollover_401k"
+    },
+    {
+      "id": 535,
+      "text": "i want to rollover my 401k",
+      "true_intent": "rollover_401k"
+    },
+    {
+      "id": 536,
+      "text": "tell me my routing number",
+      "true_intent": "routing"
+    },
+    {
+      "id": 537,
+      "text": "what is the bank's routing number",
+      "true_intent": "routing"
+    },
+    {
+      "id": 538,
+      "text": "what is my routing number to my checking account at bb&t bankj",
+      "true_intent": "routing"
+    },
+    {
+      "id": 539,
+      "text": "i need x's routing number",
+      "true_intent": "routing"
+    },
+    {
+      "id": 540,
+      "text": "can you tell me the routing number to pnc",
+      "true_intent": "routing"
+    },
+    {
+      "id": 541,
+      "text": "should i go to a car maintenance",
+      "true_intent": "schedule_maintenance"
+    },
+    {
+      "id": 542,
+      "text": "will someone please look at my check engine light that is on",
+      "true_intent": "schedule_maintenance"
+    },
+    {
+      "id": 543,
+      "text": "what is the next date for which i can get an oil change appointment",
+      "true_intent": "schedule_maintenance"
+    },
+    {
+      "id": 544,
+      "text": "i need to bring my car in because the check engine light is staying lit",
+      "true_intent": "schedule_maintenance"
+    },
+    {
+      "id": 545,
+      "text": "i need an appointment for someone to check out my check engine light being on",
+      "true_intent": "schedule_maintenance"
+    },
+    {
+      "id": 546,
+      "text": "reserve a meeting room for 5pm on friday",
+      "true_intent": "schedule_meeting"
+    },
+    {
+      "id": 547,
+      "text": "i need a meeting room between 3-7, are any available",
+      "true_intent": "schedule_meeting"
+    },
+    {
+      "id": 548,
+      "text": "i need assistance scheduling a meeting",
+      "true_intent": "schedule_meeting"
+    },
+    {
+      "id": 549,
+      "text": "i would like you to reserve a conference room for noon tomorrow",
+      "true_intent": "schedule_meeting"
+    },
+    {
+      "id": 550,
+      "text": "walk me through the process of scheduling a meeting",
+      "true_intent": "schedule_meeting"
+    },
+    {
+      "id": 551,
+      "text": "send david my location",
+      "true_intent": "share_location"
+    },
+    {
+      "id": 552,
+      "text": "tell david my location",
+      "true_intent": "share_location"
+    },
+    {
+      "id": 553,
+      "text": "what is my current location",
+      "true_intent": "share_location"
+    },
+    {
+      "id": 554,
+      "text": "please let lisa and chris know my location information",
+      "true_intent": "share_location"
+    },
+    {
+      "id": 555,
+      "text": "share my location to susan",
+      "true_intent": "share_location"
+    },
+    {
+      "id": 556,
+      "text": "what is on the shopping list",
+      "true_intent": "shopping_list"
+    },
+    {
+      "id": 557,
+      "text": "can you check to see if my shopping list already has milk",
+      "true_intent": "shopping_list"
+    },
+    {
+      "id": 558,
+      "text": "tell me what i have on my shopping list",
+      "true_intent": "shopping_list"
+    },
+    {
+      "id": 559,
+      "text": "what's on my to-buy list",
+      "true_intent": "shopping_list"
+    },
+    {
+      "id": 560,
+      "text": "tell me the items in my shopping list",
+      "true_intent": "shopping_list"
+    },
+    {
+      "id": 561,
+      "text": "if soda isn't on my shopping list, go ahead and add it for me",
+      "true_intent": "shopping_list_update"
+    },
+    {
+      "id": 562,
+      "text": "tack on a gallon of milk to the grocery list",
+      "true_intent": "shopping_list_update"
+    },
+    {
+      "id": 563,
+      "text": "i need eggs; add them to my shopping list",
+      "true_intent": "shopping_list_update"
+    },
+    {
+      "id": 564,
+      "text": "i'd like to add pancake mix to my shopping list if it's not already there",
+      "true_intent": "shopping_list_update"
+    },
+    {
+      "id": 565,
+      "text": "take paper towels off of my shopping list",
+      "true_intent": "shopping_list_update"
+    },
+    {
+      "id": 566,
+      "text": "tv turn it on",
+      "true_intent": "smart_home"
+    },
+    {
+      "id": 567,
+      "text": "please turn the lights down low",
+      "true_intent": "smart_home"
+    },
+    {
+      "id": 568,
+      "text": "i want the light less bright please",
+      "true_intent": "smart_home"
+    },
+    {
+      "id": 569,
+      "text": "what is it like the temperature at ac",
+      "true_intent": "smart_home"
+    },
+    {
+      "id": 570,
+      "text": "how is the temperature at ac",
+      "true_intent": "smart_home"
+    },
+    {
+      "id": 571,
+      "text": "correct spelling for aaron",
+      "true_intent": "spelling"
+    },
+    {
+      "id": 572,
+      "text": "i am not sure how to spell the word liaison",
+      "true_intent": "spelling"
+    },
+    {
+      "id": 573,
+      "text": "spell curiosity for me",
+      "true_intent": "spelling"
+    },
+    {
+      "id": 574,
+      "text": "i need help spelling \"exquisite",
+      "true_intent": "spelling"
+    },
+    {
+      "id": 575,
+      "text": "what is the correct spelling of the word comity, since i do not know",
+      "true_intent": "spelling"
+    },
+    {
+      "id": 576,
+      "text": "did i stick to my dinner budget",
+      "true_intent": "spending_history"
+    },
+    {
+      "id": 577,
+      "text": "do i overspend when it comes to fast food",
+      "true_intent": "spending_history"
+    },
+    {
+      "id": 578,
+      "text": "what's the total i've spent on shoes this month",
+      "true_intent": "spending_history"
+    },
+    {
+      "id": 579,
+      "text": "looking at the past month, what did i spend total",
+      "true_intent": "spending_history"
+    },
+    {
+      "id": 580,
+      "text": "how much money have a spent in the last week",
+      "true_intent": "spending_history"
+    },
+    {
+      "id": 581,
+      "text": "i want you paired to my phone",
+      "true_intent": "sync_device"
+    },
+    {
+      "id": 582,
+      "text": "can you link up with my phone",
+      "true_intent": "sync_device"
+    },
+    {
+      "id": 583,
+      "text": "i want you to connect to my handset",
+      "true_intent": "sync_device"
+    },
+    {
+      "id": 584,
+      "text": "don't be connected to my phone anymore",
+      "true_intent": "sync_device"
+    },
+    {
+      "id": 585,
+      "text": "i would like for my phone to be synced with you",
+      "true_intent": "sync_device"
+    },
+    {
+      "id": 586,
+      "text": "how much are my taxes for my income",
+      "true_intent": "taxes"
+    },
+    {
+      "id": 587,
+      "text": "what should i squirrel away to pay in taxes",
+      "true_intent": "taxes"
+    },
+    {
+      "id": 588,
+      "text": "how much do i owe the irs",
+      "true_intent": "taxes"
+    },
+    {
+      "id": 589,
+      "text": "do you know my state tax total",
+      "true_intent": "taxes"
+    },
+    {
+      "id": 590,
+      "text": "what taxes will i owe from my income",
+      "true_intent": "taxes"
+    },
+    {
+      "id": 591,
+      "text": "i'd like to hear a lawyer joke",
+      "true_intent": "tell_joke"
+    },
+    {
+      "id": 592,
+      "text": "i want to hear a joke about elephants",
+      "true_intent": "tell_joke"
+    },
+    {
+      "id": 593,
+      "text": "can you share a humorous joke with me",
+      "true_intent": "tell_joke"
+    },
+    {
+      "id": 594,
+      "text": "i want to hear your best joke",
+      "true_intent": "tell_joke"
+    },
+    {
+      "id": 595,
+      "text": "tell me a joke about the topic of mice",
+      "true_intent": "tell_joke"
+    },
+    {
+      "id": 596,
+      "text": "can you text walt and tell him to meet me at the car wash",
+      "true_intent": "text"
+    },
+    {
+      "id": 597,
+      "text": "text mark and tell him to leave now",
+      "true_intent": "text"
+    },
+    {
+      "id": 598,
+      "text": "text jeff and tell him to pay the bill",
+      "true_intent": "text"
+    },
+    {
+      "id": 599,
+      "text": "text jean and tell him to call work",
+      "true_intent": "text"
+    },
+    {
+      "id": 600,
+      "text": "text mike, \"i'm running late",
+      "true_intent": "text"
+    },
+    {
+      "id": 601,
+      "text": "thanks so much",
+      "true_intent": "thank_you"
+    },
+    {
+      "id": 602,
+      "text": "thank you for your assistance",
+      "true_intent": "thank_you"
+    },
+    {
+      "id": 603,
+      "text": "that answer was very helpful, thanks",
+      "true_intent": "thank_you"
+    },
+    {
+      "id": 604,
+      "text": "ai is a helpful item to have in my home, thank you",
+      "true_intent": "thank_you"
+    },
+    {
+      "id": 605,
+      "text": "thanks for that response",
+      "true_intent": "thank_you"
+    },
+    {
+      "id": 606,
+      "text": "what time is it in the eastern timezone",
+      "true_intent": "time"
+    },
+    {
+      "id": 607,
+      "text": "i need you to tell me what time it is in new york now",
+      "true_intent": "time"
+    },
+    {
+      "id": 608,
+      "text": "what time is it right now in adelaide, australia",
+      "true_intent": "time"
+    },
+    {
+      "id": 609,
+      "text": "what time is it in the central timezone",
+      "true_intent": "time"
+    },
+    {
+      "id": 610,
+      "text": "what time is it in dallas",
+      "true_intent": "time"
+    },
+    {
+      "id": 611,
+      "text": "set a timer to go off in 1 hour",
+      "true_intent": "timer"
+    },
+    {
+      "id": 612,
+      "text": "set a 1 minute timer",
+      "true_intent": "timer"
+    },
+    {
+      "id": 613,
+      "text": "who set up the numbers for it",
+      "true_intent": "timer"
+    },
+    {
+      "id": 614,
+      "text": "make a 10 minute timer",
+      "true_intent": "timer"
+    },
+    {
+      "id": 615,
+      "text": "set a timer",
+      "true_intent": "timer"
+    },
+    {
+      "id": 616,
+      "text": "does denver reside in the eastern timezones",
+      "true_intent": "timezone"
+    },
+    {
+      "id": 617,
+      "text": "can you give me the timezone for the country",
+      "true_intent": "timezone"
+    },
+    {
+      "id": 618,
+      "text": "what is the la's time zone",
+      "true_intent": "timezone"
+    },
+    {
+      "id": 619,
+      "text": "what's the timezone now in hiram",
+      "true_intent": "timezone"
+    },
+    {
+      "id": 620,
+      "text": "denver's timezone is what",
+      "true_intent": "timezone"
+    },
+    {
+      "id": 621,
+      "text": "how many miles are my tires rated for",
+      "true_intent": "tire_change"
+    },
+    {
+      "id": 622,
+      "text": "how do i know if it is time to replace my tires",
+      "true_intent": "tire_change"
+    },
+    {
+      "id": 623,
+      "text": "i replaced tires last june when should i do it again",
+      "true_intent": "tire_change"
+    },
+    {
+      "id": 624,
+      "text": "can you tell me when my tires have to be changed",
+      "true_intent": "tire_change"
+    },
+    {
+      "id": 625,
+      "text": "how do i know when to get the tires changed on my car",
+      "true_intent": "tire_change"
+    },
+    {
+      "id": 626,
+      "text": "is there enough air in my tires",
+      "true_intent": "tire_pressure"
+    },
+    {
+      "id": 627,
+      "text": "i wanna know my car's tire pressure",
+      "true_intent": "tire_pressure"
+    },
+    {
+      "id": 628,
+      "text": "what's the tire pressure of my tires",
+      "true_intent": "tire_pressure"
+    },
+    {
+      "id": 629,
+      "text": "are my tires filled properly",
+      "true_intent": "tire_pressure"
+    },
+    {
+      "id": 630,
+      "text": "give me the tire pressure for the car",
+      "true_intent": "tire_pressure"
+    },
+    {
+      "id": 631,
+      "text": "list my todo list items",
+      "true_intent": "todo_list"
+    },
+    {
+      "id": 632,
+      "text": "give me my todo list",
+      "true_intent": "todo_list"
+    },
+    {
+      "id": 633,
+      "text": "check on my to-do list items",
+      "true_intent": "todo_list"
+    },
+    {
+      "id": 634,
+      "text": "is it possible to read my to-do list again",
+      "true_intent": "todo_list"
+    },
+    {
+      "id": 635,
+      "text": "check what is on my to-do list",
+      "true_intent": "todo_list"
+    },
+    {
+      "id": 636,
+      "text": "empty the contents of my to do list",
+      "true_intent": "todo_list_update"
+    },
+    {
+      "id": 637,
+      "text": "you take sweeping of my todo list",
+      "true_intent": "todo_list_update"
+    },
+    {
+      "id": 638,
+      "text": "you can dusting off my todo list",
+      "true_intent": "todo_list_update"
+    },
+    {
+      "id": 639,
+      "text": "please put babysitting on my to do list",
+      "true_intent": "todo_list_update"
+    },
+    {
+      "id": 640,
+      "text": "please remove science fair from my to do list",
+      "true_intent": "todo_list_update"
+    },
+    {
+      "id": 641,
+      "text": "can you give me a traffic update for driving routes nearest ocean city, new jersey from philadelphia",
+      "true_intent": "traffic"
+    },
+    {
+      "id": 642,
+      "text": "is there traffic on the way",
+      "true_intent": "traffic"
+    },
+    {
+      "id": 643,
+      "text": "what traffic can i expect on the way to the newark, new jersey from philadelphia",
+      "true_intent": "traffic"
+    },
+    {
+      "id": 644,
+      "text": "is there traffic on the way to work",
+      "true_intent": "traffic"
+    },
+    {
+      "id": 645,
+      "text": "what will traffic be like nearest the george washington bridge, new york",
+      "true_intent": "traffic"
+    },
+    {
+      "id": 646,
+      "text": "show what i have spent things on",
+      "true_intent": "transactions"
+    },
+    {
+      "id": 647,
+      "text": "what is the largest transaction i have made on video games this month",
+      "true_intent": "transactions"
+    },
+    {
+      "id": 648,
+      "text": "how many transactions do i have on flower shops from last wednesday between 2pm and 7pm",
+      "true_intent": "transactions"
+    },
+    {
+      "id": 649,
+      "text": "how much have i spent on my bank card sine i last paid my bill",
+      "true_intent": "transactions"
+    },
+    {
+      "id": 650,
+      "text": "can you verify my recent visa card transaction",
+      "true_intent": "transactions"
+    },
+    {
+      "id": 651,
+      "text": "can you please provide me with assistance in moving money from one account to another",
+      "true_intent": "transfer"
+    },
+    {
+      "id": 652,
+      "text": "transfer seventeen dollars from rbs to woodforest account, please",
+      "true_intent": "transfer"
+    },
+    {
+      "id": 653,
+      "text": "help me transfer $100 from my checking to saving account",
+      "true_intent": "transfer"
+    },
+    {
+      "id": 654,
+      "text": "can you please help me move $100 from my checking to saving account",
+      "true_intent": "transfer"
+    },
+    {
+      "id": 655,
+      "text": "send twelve dollars between cabelas and bank of london accounts, please",
+      "true_intent": "transfer"
+    },
+    {
+      "id": 656,
+      "text": "how would i say what is your name if i were french",
+      "true_intent": "translate"
+    },
+    {
+      "id": 657,
+      "text": "what is the right way to say excuse me in spanish",
+      "true_intent": "translate"
+    },
+    {
+      "id": 658,
+      "text": "how do i say i'm sorry in chinese",
+      "true_intent": "translate"
+    },
+    {
+      "id": 659,
+      "text": "how would i say i love you if i were german",
+      "true_intent": "translate"
+    },
+    {
+      "id": 660,
+      "text": "how would i say thank you if i were mexican",
+      "true_intent": "translate"
+    },
+    {
+      "id": 661,
+      "text": "what travel alerts are in effect for the us",
+      "true_intent": "travel_alert"
+    },
+    {
+      "id": 662,
+      "text": "is it safe in italy",
+      "true_intent": "travel_alert"
+    },
+    {
+      "id": 663,
+      "text": "does the state department say anything about traveling to haiti",
+      "true_intent": "travel_alert"
+    },
+    {
+      "id": 664,
+      "text": "are there any travel bulletins about haiti",
+      "true_intent": "travel_alert"
+    },
+    {
+      "id": 665,
+      "text": "note any travel alerts for haiti",
+      "true_intent": "travel_alert"
+    },
+    {
+      "id": 666,
+      "text": "assure my bank i really am going to california",
+      "true_intent": "travel_notification"
+    },
+    {
+      "id": 667,
+      "text": "please let my bank know that i will be visiting spain from june 12th to the 24th",
+      "true_intent": "travel_notification"
+    },
+    {
+      "id": 668,
+      "text": "send a notification to my bank of my travel dates from february 19th to 26th to peru",
+      "true_intent": "travel_notification"
+    },
+    {
+      "id": 669,
+      "text": "please notify my bank i'm going to africa between tomorrow and next tuesday",
+      "true_intent": "travel_notification"
+    },
+    {
+      "id": 670,
+      "text": "alert my bank i'm checking out seattle for the next month",
+      "true_intent": "travel_notification"
+    },
+    {
+      "id": 671,
+      "text": "give me some ideas of what to do during my trip to dallas",
+      "true_intent": "travel_suggestion"
+    },
+    {
+      "id": 672,
+      "text": "help me pick a new location to travel to",
+      "true_intent": "travel_suggestion"
+    },
+    {
+      "id": 673,
+      "text": "let me know some things i can do in dallas",
+      "true_intent": "travel_suggestion"
+    },
+    {
+      "id": 674,
+      "text": "i wanna know some things to do in phoenix",
+      "true_intent": "travel_suggestion"
+    },
+    {
+      "id": 675,
+      "text": "can you help me pick some fun things to do in london during my trip",
+      "true_intent": "travel_suggestion"
+    },
+    {
+      "id": 676,
+      "text": "call an uber to take a group of 4 from this bar to the one on maple st",
+      "true_intent": "uber"
+    },
+    {
+      "id": 677,
+      "text": "have an uber sent to take me to the courthouse",
+      "true_intent": "uber"
+    },
+    {
+      "id": 678,
+      "text": "i want an uber to take me to walmart",
+      "true_intent": "uber"
+    },
+    {
+      "id": 679,
+      "text": "i'd like an uber for 6 people, going to walmart",
+      "true_intent": "uber"
+    },
+    {
+      "id": 680,
+      "text": "i need an uber to get to the bank",
+      "true_intent": "uber"
+    },
+    {
+      "id": 681,
+      "text": "i want what i'm listening to to be added to my chill playlist",
+      "true_intent": "update_playlist"
+    },
+    {
+      "id": 682,
+      "text": "will you be sure to add this current song to my sleep playlist",
+      "true_intent": "update_playlist"
+    },
+    {
+      "id": 683,
+      "text": "please add this song to my study playlist",
+      "true_intent": "update_playlist"
+    },
+    {
+      "id": 684,
+      "text": "this song i'm listening to would be great on my commute playlist",
+      "true_intent": "update_playlist"
+    },
+    {
+      "id": 685,
+      "text": "can you add this song to my country music playlist",
+      "true_intent": "update_playlist"
+    },
+    {
+      "id": 686,
+      "text": "call my name",
+      "true_intent": "user_name"
+    },
+    {
+      "id": 687,
+      "text": "i need to know the name that you have for me",
+      "true_intent": "user_name"
+    },
+    {
+      "id": 688,
+      "text": "how do you refer to me",
+      "true_intent": "user_name"
+    },
+    {
+      "id": 689,
+      "text": "what did i tell you to call me",
+      "true_intent": "user_name"
+    },
+    {
+      "id": 690,
+      "text": "do you have a name for me",
+      "true_intent": "user_name"
+    },
+    {
+      "id": 691,
+      "text": "what sorts of vaccinations should i get prior to a trip to hong kong",
+      "true_intent": "vaccines"
+    },
+    {
+      "id": 692,
+      "text": "vaccines for my trip to cuba",
+      "true_intent": "vaccines"
+    },
+    {
+      "id": 693,
+      "text": "would you need more shots to go to mexico",
+      "true_intent": "vaccines"
+    },
+    {
+      "id": 694,
+      "text": "would vaccinations be needed if i go here",
+      "true_intent": "vaccines"
+    },
+    {
+      "id": 695,
+      "text": "are there any required shots in indonesia",
+      "true_intent": "vaccines"
+    },
+    {
+      "id": 696,
+      "text": "can you trll me where to get my w2",
+      "true_intent": "w2"
+    },
+    {
+      "id": 697,
+      "text": "what do i need to do to get that tax form thing from my job",
+      "true_intent": "w2"
+    },
+    {
+      "id": 698,
+      "text": "i wanna know where to get my w2",
+      "true_intent": "w2"
+    },
+    {
+      "id": 699,
+      "text": "i want to get the w-2 form",
+      "true_intent": "w2"
+    },
+    {
+      "id": 700,
+      "text": "i would like to know where i can find my w2 for tax reasons",
+      "true_intent": "w2"
+    },
+    {
+      "id": 701,
+      "text": "what about the weather in austin",
+      "true_intent": "weather"
+    },
+    {
+      "id": 702,
+      "text": "how is the weather",
+      "true_intent": "weather"
+    },
+    {
+      "id": 703,
+      "text": "tell me what the weather is looking like",
+      "true_intent": "weather"
+    },
+    {
+      "id": 704,
+      "text": "what is happening with the weather in austin",
+      "true_intent": "weather"
+    },
+    {
+      "id": 705,
+      "text": "what is the weather like",
+      "true_intent": "weather"
+    },
+    {
+      "id": 706,
+      "text": "what kind of hobbies does the ai have",
+      "true_intent": "what_are_your_hobbies"
+    },
+    {
+      "id": 707,
+      "text": "what are the ai's hobbies",
+      "true_intent": "what_are_your_hobbies"
+    },
+    {
+      "id": 708,
+      "text": "does the ai have hobbies",
+      "true_intent": "what_are_your_hobbies"
+    },
+    {
+      "id": 709,
+      "text": "what do you do after work",
+      "true_intent": "what_are_your_hobbies"
+    },
+    {
+      "id": 710,
+      "text": "would you give me examples of what some of your hobbies are",
+      "true_intent": "what_are_your_hobbies"
+    },
+    {
+      "id": 711,
+      "text": "what sorts of tasks can you do",
+      "true_intent": "what_can_i_ask_you"
+    },
+    {
+      "id": 712,
+      "text": "what kid of subjects do you excel in",
+      "true_intent": "what_can_i_ask_you"
+    },
+    {
+      "id": 713,
+      "text": "please tell me what subjects you like",
+      "true_intent": "what_can_i_ask_you"
+    },
+    {
+      "id": 714,
+      "text": "what things are you able to help me with",
+      "true_intent": "what_can_i_ask_you"
+    },
+    {
+      "id": 715,
+      "text": "tell me what subjects you like",
+      "true_intent": "what_can_i_ask_you"
+    },
+    {
+      "id": 716,
+      "text": "who do i have the pleasure of speaking with",
+      "true_intent": "what_is_your_name"
+    },
+    {
+      "id": 717,
+      "text": "what is your name",
+      "true_intent": "what_is_your_name"
+    },
+    {
+      "id": 718,
+      "text": "what name do you go by",
+      "true_intent": "what_is_your_name"
+    },
+    {
+      "id": 719,
+      "text": "how should i address you",
+      "true_intent": "what_is_your_name"
+    },
+    {
+      "id": 720,
+      "text": "what should i call you",
+      "true_intent": "what_is_your_name"
+    },
+    {
+      "id": 721,
+      "text": "can you identify this song for me",
+      "true_intent": "what_song"
+    },
+    {
+      "id": 722,
+      "text": "what is the title of the song we're listening to right now",
+      "true_intent": "what_song"
+    },
+    {
+      "id": 723,
+      "text": "i'd like to know what song this is",
+      "true_intent": "what_song"
+    },
+    {
+      "id": 724,
+      "text": "what kind of music on the speaker now",
+      "true_intent": "what_song"
+    },
+    {
+      "id": 725,
+      "text": "what is playing on the speaker at the moment",
+      "true_intent": "what_song"
+    },
+    {
+      "id": 726,
+      "text": "where did you live before you moved here",
+      "true_intent": "where_are_you_from"
+    },
+    {
+      "id": 727,
+      "text": "the place you were born is",
+      "true_intent": "where_are_you_from"
+    },
+    {
+      "id": 728,
+      "text": "so where do you come from originally",
+      "true_intent": "where_are_you_from"
+    },
+    {
+      "id": 729,
+      "text": "what location were you born",
+      "true_intent": "where_are_you_from"
+    },
+    {
+      "id": 730,
+      "text": "where were you thought of",
+      "true_intent": "where_are_you_from"
+    },
+    {
+      "id": 731,
+      "text": "go to whisper mode until my morning alarm goes off",
+      "true_intent": "whisper_mode"
+    },
+    {
+      "id": 732,
+      "text": "whisper mode, stop",
+      "true_intent": "whisper_mode"
+    },
+    {
+      "id": 733,
+      "text": "switch over to whisper mode",
+      "true_intent": "whisper_mode"
+    },
+    {
+      "id": 734,
+      "text": "start whisper mode",
+      "true_intent": "whisper_mode"
+    },
+    {
+      "id": 735,
+      "text": "cancel whisper mode",
+      "true_intent": "whisper_mode"
+    },
+    {
+      "id": 736,
+      "text": "are you my insubordinate",
+      "true_intent": "who_do_you_work_for"
+    },
+    {
+      "id": 737,
+      "text": "let me know who your boss is",
+      "true_intent": "who_do_you_work_for"
+    },
+    {
+      "id": 738,
+      "text": "i want to know who your boss is",
+      "true_intent": "who_do_you_work_for"
+    },
+    {
+      "id": 739,
+      "text": "do you take orders from someone else",
+      "true_intent": "who_do_you_work_for"
+    },
+    {
+      "id": 740,
+      "text": "what firm do you work for",
+      "true_intent": "who_do_you_work_for"
+    },
+    {
+      "id": 741,
+      "text": "can you let me know what company were you designed by",
+      "true_intent": "who_made_you"
+    },
+    {
+      "id": 742,
+      "text": "what company is responsible for this design",
+      "true_intent": "who_made_you"
+    },
+    {
+      "id": 743,
+      "text": "who is your maker",
+      "true_intent": "who_made_you"
+    },
+    {
+      "id": 744,
+      "text": "what company designed this",
+      "true_intent": "who_made_you"
+    },
+    {
+      "id": 745,
+      "text": "what company were you designed by",
+      "true_intent": "who_made_you"
+    },
+    {
+      "id": 746,
+      "text": "thats right",
+      "true_intent": "yes"
+    },
+    {
+      "id": 747,
+      "text": "please let's do it",
+      "true_intent": "yes"
+    },
+    {
+      "id": 748,
+      "text": "great",
+      "true_intent": "yes"
+    },
+    {
+      "id": 749,
+      "text": "absolutely",
+      "true_intent": "yes"
+    },
+    {
+      "id": 750,
+      "text": "yup",
+      "true_intent": "yes"
+    }
+  ],
+  "metadata": {
+    "total_samples": 750,
+    "intents_covered": 150,
+    "samples_per_intent": 5,
+    "source": "CLINC150 test split",
+    "seed": 42,
+    "created_at": "2026-02-23T15:37:42.110963+00:00"
+  }
+}

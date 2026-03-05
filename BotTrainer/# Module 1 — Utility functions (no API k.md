@@ -5,65 +5,79 @@
 - Python 3.10+ with pip
 - Node.js 18+ with npm
 - Gemini API key (set in `BotTrainer/.env`)
+- Kaggle API key at `~/.kaggle/kaggle.json` (for dataset download)
 
 ---
 
 ## Step 1 — Setup Python Environment
 ```bash
-cd BotTrainer
-python -m venv .venv
-# Windows:
-.\.venv\Scripts\Activate.ps1
-# macOS/Linux:
-source .venv/bin/activate
+# All commands run from the project root (AIIP/)
+cd AIIP
 
-pip install -r requirements.txt
+# Create venv inside BotTrainer/
+python -m venv BotTrainer/.venv
+
+# Activate (Windows):
+.\BotTrainer\.venv\Scripts\Activate.ps1
+# Activate (macOS/Linux):
+source BotTrainer/.venv/bin/activate
+
+# Install as editable package (makes `python -m BotTrainer` work)
+pip install -e .
 ```
 
 ## Step 2 — Download Dataset (Module 3 — Data Loader)
 ```bash
-python -m BotTrainer.modules.data_loader
+python -m BotTrainer data_loader
 ```
 Downloads CLINC150 from Kaggle, creates `data/intents.json` and `data/eval_dataset.json`.
 
-## Step 3 — Verify Individual Modules (Optional)
+## Step 3 — Run ALL Modules in One Command
+```bash
+python -m BotTrainer
+```
+Runs every module (1–6) in sequence: utils → llm_client → data_loader → intent_classifier → entity_extractor → evaluator.
+
+## Step 4 — Run Individual Modules (Optional)
 ```bash
 # Module 1 — Utility functions (no API key needed)
-python -m BotTrainer.modules.utils
+python -m BotTrainer utils
 
 # Module 2 — LLM client (tests Gemini connection)
-python -m BotTrainer.modules.llm_client
+python -m BotTrainer llm_client
+
+# Module 3 — Data loader (downloads CLINC150 dataset)
+python -m BotTrainer data_loader
 
 # Module 4 — Intent classifier (classifies 3 sample messages)
-python -m BotTrainer.modules.intent_classifier
+python -m BotTrainer intent_classifier
 
 # Module 5 — Entity extractor (extracts entities from 3 samples)
-python -m BotTrainer.modules.entity_extractor
+python -m BotTrainer entity_extractor
 
 # Module 6 — Evaluator (runs evaluation on 10 samples, shows metrics)
-python -m BotTrainer.modules.evaluator
+python -m BotTrainer evaluator
 ```
 
-## Step 4 — Run Full CLI Pipeline
+## Step 5 — Run Full CLI Pipeline
 ```bash
-python -m BotTrainer.pipeline
+python -m BotTrainer pipeline
 ```
 Interactive CLI that classifies intent + extracts entities from your text.
 
-## Step 5 — Run Streamlit App (Legacy UI)
+## Step 6 — Run Streamlit App
 ```bash
-streamlit run run.py
+python run.py --app
 ```
 Opens the full Streamlit dashboard at `http://localhost:8501`.
 
 ---
 
-## Step 6 — Run FastAPI Backend + React Frontend (Production)
+## Step 7 — Run FastAPI Backend + React Frontend (Production)
 
 ### Terminal 1 — Start Backend API
 ```bash
-cd BotTrainer
-.\.venv\Scripts\Activate.ps1
+.\BotTrainer\.venv\Scripts\Activate.ps1
 uvicorn BotTrainer.api:app --reload --port 8000
 ```
 API available at `http://localhost:8000/docs` (Swagger UI).
@@ -78,7 +92,7 @@ Opens the ChatGPT-style UI at `http://localhost:5173`.
 
 ---
 
-## Step 7 — Run Tests
+## Step 8 — Run Tests
 ```bash
 python -m pytest tests/ -v
 ```

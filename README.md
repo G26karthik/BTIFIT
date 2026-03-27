@@ -669,22 +669,22 @@ curl http://localhost:8000/api/health
 ### Chat Interface
 The main chat UI for interacting with the NLU system:
 
-![Chat interface](Chat%20interface.jpeg)
+![Chat interface](docs/screenshots/chat-interface.jpeg)
 
 ### Real Chat Conversation
 Example of a real conversation with intent and entity extraction:
 
-![Real Chat](Real%20Chat.jpeg)
+![Real Chat](docs/screenshots/real-chat.jpeg)
 
 ### Evaluation Dashboard
 Performance metrics and system evaluation dashboard:
 
-![Evaluation Dashboard](Evaluation%20Dashboard.jpeg)
+![Evaluation Dashboard](docs/screenshots/evaluation-dashboard.jpeg)
 
 ### Evaluation Per Intent Performance
 Detailed performance metrics broken down by individual intents:
 
-![Evaluation Per Intent Performance](Evaluation%20Per%20Intent%20Performance.jpeg)
+![Evaluation Per Intent Performance](docs/screenshots/evaluation-per-intent-performance.jpeg)
 
 ---
 
